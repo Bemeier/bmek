@@ -1,3 +1,3 @@
 # BMEK High-profile Case
 
-TODO
+Work in Progress. Album of current design [here](https://imgur.com/a/1Qes6kL)
