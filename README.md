@@ -24,7 +24,7 @@ Only top-mounted LEDs (optional), hot-swap sockets (optional) and USB-C connecto
 Ordering 5 boards, the cost comes around to ~12$, including assembly (excluding USB-C connector and other optional parts).
 
 **Part**|**#**|**Part ID**|**Cost**|**Total**
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+:-----:|:-----:|:-----:|:-----:|:-----:
 [ATmega32U4-AU](https://lcsc.com/product-detail/ATMEL-AVR\_ATMEL\_ATMEGA32U4-AU\_ATMEGA32U4-AU\_C44854.html)|1|C44854|$3.30|$3.30
 [Oscillator 16MHz 18pF](https://lcsc.com/product-detail/SMD-Crystal-Resonators\_Yangxing-Tech-X322516MLB4SI\_C13738.html)|1|C13738|$0.10|$0.10
 [Reset Switch](https://lcsc.com/product-detail/Tactile-Switches\_XKB-Enterprise-TS-1187-B-A-A\_C318884.html)|1|C318884|$0.02|$0.02
