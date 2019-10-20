@@ -6,11 +6,21 @@
 | --- |
 
 BMEK is an ergonomic keyboard in the spirit of [Lyn's EM7](https://geekhack.org/index.php?topic=83328.0) and [TGR Alice](https://geekhack.org/index.php?topic=95009.0).
-Notable differences are the more [HHKB-like](https://www.hhkeyboard.com/) layout, the and the more symmetric looks with the space bars and left key cluster arrangement.
+Notable differences are the more [HHKB-like](https://www.hhkeyboard.com/) layout and the and the more symmetric looks due to the space bars and left key cluster arrangement.
+
+## Layout
+
+In the current version, only a HHKB-style layout ([KLE](http://www.keyboard-layout-editor.com/#/gists/ae301a4ba7e58ec17bfcf9b79da94a00)) is supported - no iso enter, no 2u spacebar for now.
+Also note that you'll need 2x2.75 spacebars. Most GMK (spacebar) kits only come with one, but you can always add a shift or num-0 key.
+
+## Firmware
+
+Setup QMK and run `make bemeier/bmek:default`  
+
+Source: [TODO: Release](https://github.com/qmk/qmk_firmware/tree/master/keyboards/bemeier/bmek), [Dev](https://github.com/Bemeier/qmk_firmware/tree/bemeier/keyboards/bemeier/bmek)
 
 ## PCB
 
-The current version of the PCB only allows for the HHKB-like layout, as shown above.
 Both hot-swap sockets and permanent soldering are supported. Connector is USB-C, and is confirmed to also work with USB-C to USB-C cables.
 
 The PCB design was based on the schematics from the [Goldfish](https://github.com/Dr-Derivative/Goldfish) controller.
@@ -44,16 +54,10 @@ PCB source files will be released at a later point.
  | | | | | 
  | | | |**Total:**|**$17.00**
 
-## Firmware
-
-Setup QMK and run `make bemeier/bmek:default`  
-
-Source: [Release](https://github.com/qmk/qmk_firmware/tree/master/keyboards/bemeier/bmek), [Dev](https://github.com/Bemeier/qmk_firmware/tree/bemeier/keyboards/bemeier/bmek)
-
 ## Cases
 
-A 2-pieces high profile case with integrated plate mounts (intended for CNC-machining from Polycarbonate & Aluminium) will be released under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
-I'll also release the Fusion360 project at a later point, as well as lasercut plate and case files ([cases/lasercut](https://github.com/Bemeier/bmek/tree/master/cases/lasercut)).
+3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate & aluminium) will be released under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
+I'll also eventually release the entire Fusion360 project at a later point, as well as lasercut plate and case files ([cases/lasercut](https://github.com/Bemeier/bmek/tree/master/cases/lasercut)).
 
 ## License
 
