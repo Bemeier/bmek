@@ -6,7 +6,7 @@
 | --- |
 
 BMEK is an ergonomic keyboard in the spirit of [Lyn's EM7](https://geekhack.org/index.php?topic=83328.0) and [TGR Alice](https://geekhack.org/index.php?topic=95009.0).
-Notable differences are the more [HHKB-like](https://www.hhkeyboard.com/) layout, the mirrored space-bar layout and the 4 extra keys on the left for better symmetry.
+Notable differences are the more [HHKB-like](https://www.hhkeyboard.com/) layout, the and the more symmetric looks with the space bars and left key cluster arrangement.
 
 ## PCB
 
@@ -14,14 +14,15 @@ The current version of the PCB only allows for the HHKB-like layout, as shown ab
 Both hot-swap sockets and permanent soldering are supported. Connector is USB-C, and is confirmed to also work with USB-C to USB-C cables.
 
 The PCB design was based on the schematics from the [Goldfish](https://github.com/Dr-Derivative/Goldfish) controller.
-PCB source files will be released later.
 
-## BOM 
-
-All Gerber & BOM files needed for ordering at JLCPCB are under `pcb/jlcpcb`. It can be ordered with pick-and-place.
-SMD part costs from jlcpcb quotation (ordering 5 PCBs with pick & place).
+All Gerber & BOM files needed for ordering at JLCPCB are under [pcb/jlcpcb](https://github.com/Bemeier/bmek/tree/master/pcb/jlcpcb).
+It can be ordered with pick-and-place assembly. SMD part costs from jlcpcb quotation (ordering 5 PCBs with pick & place).
 Only top-mounted LEDs (optional), hot-swap sockets (optional) and USB-C connector need to be ordered separately and soldered by hand.
-Ordering 5 boards, the cost comes around to ~12$, including assembly (excluding USB-C connector and other optional parts).
+When ordering 5 boards (MOQ), the cost comes out to ~12$ per board, including assembly, but excluding USB-C connector and other optional parts.
+
+PCB source files will be released at a later point.
+
+### BOM
 
 **Part**|**#**|**Part ID**|**Cost**|**Total**
 :-----:|:-----:|:-----:|:-----:|:-----:
@@ -51,8 +52,8 @@ Source: [Release](https://github.com/qmk/qmk_firmware/tree/master/keyboards/beme
 
 ## Cases
 
-A 2-pieces high profile case with integrated plate mounts (intended for CNC-machining from Polycarbonate & Aluminium) can be found under `cases/highprofile`.
-At a later point, SVGs for a lasercut case will be made available under `cases/lasercut`. 
+A 2-pieces high profile case with integrated plate mounts (intended for CNC-machining from Polycarbonate & Aluminium) will be released under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
+I'll also release the Fusion360 project at a later point, as well as lasercut plate and case files ([cases/lasercut](https://github.com/Bemeier/bmek/tree/master/cases/lasercut)).
 
 ## License
 
