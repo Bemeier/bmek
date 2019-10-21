@@ -32,6 +32,10 @@ When ordering 5 boards (MOQ), the cost comes out to ~12$ per board, including as
 
 PCB source files will be released at a later point.
 
+First version of the PCB (v2 is still untested):
+
+![PCBv1](https://i.imgur.com/6sPZ7j9.jpg)
+
 ### BOM
 
 **Part**|**#**|**Part ID**|**Cost**|**Total**
