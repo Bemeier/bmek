@@ -63,6 +63,10 @@ First version of the PCB (v2 is still untested):
 3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate & aluminium) will be released under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
 I'll also eventually release the entire Fusion360 project at a later point, as well as lasercut plate and case files ([cases/lasercut](https://github.com/Bemeier/bmek/tree/master/cases/lasercut)).
 
+## Contributing
+
+Check out the [geekhack thread](https://geekhack.org/index.php?topic=103032.0), or use the issue system on this repository.
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">BMEK Mechanical Keyboard</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://github.com/Bemeier/bmek" property="cc:attributionName" rel="cc:attributionURL">Jan Kolkmeier</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
