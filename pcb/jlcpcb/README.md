@@ -2,11 +2,11 @@
 
 ![PCB](https://i.imgur.com/Gihmnn3.png)
 
-Go to [jlcpcb.com](https://jlcpcb.com) and get a quotation. Use the .zip for uploading gerber files. For assembly, use BOM.csv and CPL.csv.
+Go to [jlcpcb.com](https://jlcpcb.com) and get a quotation. Use the .zip for uploading gerber files. For assembly, use BOM_LED.csv and CPL_LED.csv.
 
 ## Changelog
 
-### PCBv2.zip (untested!)
+### PCBv2.zip (tested and works!)
 - Improve decoupling capacitor positioning
 - Moved atmega closer to USB port
 - Added hot-swap sockets
