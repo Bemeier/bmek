@@ -2,11 +2,11 @@
 
 ![BMEK](https://i.imgur.com/ZM27uPo.jpg)
 
-| WARNING: WORK IN PROGRESS! |
-| --- |
 
 BMEK is an ergonomic keyboard in the spirit of [Lyn's EM7](https://geekhack.org/index.php?topic=83328.0) and [TGR Alice](https://geekhack.org/index.php?topic=95009.0).
 Notable differences are the more [HHKB-like](https://www.hhkeyboard.com/) layout and the and the more symmetric looks due to the space bars and left key cluster arrangement.
+
+[Imgur Album](https://imgur.com/a/tHlaMWA)
 
 ## Layout
 
@@ -28,13 +28,12 @@ The PCB design was based on the schematics from the [Goldfish](https://github.co
 All Gerber & BOM files needed for ordering at JLCPCB are under [pcb/jlcpcb](https://github.com/Bemeier/bmek/tree/master/pcb/jlcpcb).
 It can be ordered with pick-and-place assembly. SMD part costs from jlcpcb quotation (ordering 5 PCBs with pick & place).
 Only top-mounted LEDs (optional), hot-swap sockets (optional) and USB-C connector need to be ordered separately and soldered by hand.
-When ordering 5 boards (MOQ), the cost comes out to ~12$ per board, including assembly, but excluding USB-C connector and other optional parts.
+When ordering 5 boards (MOQ), the cost comes out to ~12$ per board, including assembly, but excluding USB-C connector and LEDs.
 
-PCB source files will be released at a later point.
+Fully working PCBv2:
 
-First version of the PCB (v2 is still untested):
-
-![PCBv1](https://i.imgur.com/6sPZ7j9.jpg)
+![PCBv2 top](https://i.imgur.com/iHjo18j.jpg)
+![PCBv2 bottom](https://i.imgur.com/7royTzh.jpg)
 
 ### BOM
 
@@ -58,8 +57,10 @@ USB-C Receptacle - 632723300011|€4.00|1
 
 ## Cases
 
-3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate & aluminium) will be released under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
+3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate & aluminium) are under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
 I'll also eventually release the entire Fusion360 project at a later point, as well as lasercut plate and case files ([cases/lasercut](https://github.com/Bemeier/bmek/tree/master/cases/lasercut)).
+
+![Case Assembled](https://i.imgur.com/5wR5hRO.jpg)
 
 ## Contributing
 
