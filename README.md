@@ -11,7 +11,7 @@ Notable differences are the more [HHKB-like](https://www.hhkeyboard.com/) layout
 ## Layout
 
 In the current version, only a HHKB-style layout ([KLE](http://www.keyboard-layout-editor.com/#/gists/ae301a4ba7e58ec17bfcf9b79da94a00)) is supported - no iso enter, no 2u spacebar for now.
-Also note that you'll need 2x2.75 spacebars. Most GMK (spacebar) kits only come with one, but you can always add a shift or num-0 key.
+Also note that you'll need 2x2.75 spacebars. Most GMK (spacebar) kits only come with one, but you can always use a shift key, or use a 2.25u spacebar and live with a little gap :)
 
 ## Firmware
 
@@ -38,25 +38,23 @@ First version of the PCB (v2 is still untested):
 
 ### BOM
 
-**Part**|**#**|**Part ID**|**Cost**|**Total**
-:-----:|:-----:|:-----:|:-----:|:-----:
-[ATmega32U4-AU](https://lcsc.com/product-detail/ATMEL-AVR\_ATMEL\_ATMEGA32U4-AU\_ATMEGA32U4-AU\_C44854.html)|1|C44854|$3.30|$3.30
-[Oscillator 16MHz 18pF](https://lcsc.com/product-detail/SMD-Crystal-Resonators\_Yangxing-Tech-X322516MLB4SI\_C13738.html)|1|C13738|$0.10|$0.10
-[Reset Switch](https://lcsc.com/product-detail/Tactile-Switches\_XKB-Enterprise-TS-1187-B-A-A\_C318884.html)|1|C318884|$0.02|$0.02
-[Schottky Diode](https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD\_Changjiang-Electronics-Tech-CJ-B5819W\_C8598.html)|1|C8598|$0.04|$0.04
-[Switching Diodes](https://lcsc.com/product-detail/Switching-Diode\_1N4148W\_C81598.html)|66|C81598|$0.02|$1.32
-[5.1KΩ](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount\_Uniroyal-Elec-0603WAF5101T5E\_C23186.html)|2|C23186|$0.01|$0.02
-[10KΩ](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount\_Uniroyal-Elec-0603WAF1002T5E\_C25804.html)|2|C25804|$0.01|$0.02
-[22Ω](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount\_Uniroyal-Elec-0603WAF220JT5E\_C23345.html)|2|C23345|$0.01|$0.02
-[0.1uF](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT\_100nF-104-10-50V\_C14663.html)|12|C14663|$0.01|$0.12
-[4.7uF](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT\_SAMSUNG\_CL10A475KO8NNNC\_4-7uF-475-10-16V\_C19666.html)|1|C19666|$0.39|$0.39
-[22pF](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT\_SAMSUNG\_CL10C220JB8NNNC\_22pF-220-5-50V\_C1653.html)|2|C1653|$0.02|$0.04
-[1uF](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT\_SAMSUNG\_CL10A105KB8NNNC\_1uF-105-10-50V\_C15849.html)|1|C15849|$0.01|$0.01
-[Kailh PCB Sockets](https://kbdfans.com/products/mechanical-keyboard-switches-kailh-pcb-socket)|66|PG151101S11|$0.10|$6.60
-[USB-C Receptacle](https://www.digikey.nl/product-detail/en/w-rth-elektronik/632723300011/732-9618-1-ND/5806673?cur=USD&lang=en)|1|632723300011|$4.40|$4.40
-[WS2812b](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114586.html)|6|C114586|$0.10|$0.60
- | | | | | 
- | | | |**Total:**|**$17.00**
+**Part Detail**|**Unit Price**|**Quantity**
+-----|-----|-----
+Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD C318884|€0.07|1
+ATMEL & AVR QFP-44\_10x10x08P C44854|€3.26|1
+Multilayer Ceramic Capacitors MLCC - SMD/SMT 22pF 50V 0603 C1653|€0.01|2
+Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 C25804|€0.00|2
+Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 C23179|€0.02|1
+Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 50V 0603 C14663|€0.00|12
+Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 50V 0603 C15849|€0.04|1
+Schottky Barrier Diodes (SBD) SOD-123 C8598|€0.14|1
+Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF 16V 0603 C19666|€0.06|1
+Switching Diode 75V 150mA 1.25V @ 150mA 4ns SOD-123 C81598|€0.01|66
+Chip Resistor - Surface Mount 22Ohms ±1% 1/10W 0603 C23345|€0.01|2
+SMD Crystal Resonators 16MHz ±10ppm SMD-3225\_4P C13738|€0.38|1
+Chip Resistor - Surface Mount 5.1KOhms ±1% 1/10W 0603 C23186|€0.00|2
+Light Emitting Diodes (LED) -WS2812B-B C114586|€0.10|6
+USB-C Receptacle - 632723300011|€4.00|1
 
 ## Cases
 
