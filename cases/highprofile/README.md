@@ -2,6 +2,6 @@
 
 First Prototype made with an Isel ICP 4030:
 
-![Prototype Full](https://i.imgur.com/gmRM4wE.jpg)
-![Prototype Switches](https://i.imgur.com/war7Ueg.jpg)
+![Case Assembled](https://i.imgur.com/5wR5hRO.jpg)
 
+[Imgur Album](https://imgur.com/a/tHlaMWA)
