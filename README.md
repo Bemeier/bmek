@@ -1,6 +1,6 @@
 # Hardware for BMEK - Bemeier Ergonomic Keyboard
 
-![BMEK](https://i.imgur.com/ZM27uPo.jpg)
+![BMEK](https://i.imgur.com/3rHByZJ.jpg)
 
 
 BMEK is an ergonomic keyboard in the spirit of [Lyn's EM7](https://geekhack.org/index.php?topic=83328.0) and [TGR Alice](https://geekhack.org/index.php?topic=95009.0).
