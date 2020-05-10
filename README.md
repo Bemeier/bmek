@@ -6,7 +6,7 @@
 BMEK is an ergonomic keyboard in the spirit of [Lyn's EM7](https://geekhack.org/index.php?topic=83328.0) and [TGR Alice](https://geekhack.org/index.php?topic=95009.0).
 Notable differences are the more [HHKB-like](https://www.hhkeyboard.com/) layout and the and the more symmetric looks due to the space bars and left key cluster arrangement.
 
-[Imgur Album](https://imgur.com/a/tHlaMWA)
+[Geekhack Thread](https://geekhack.org/index.php?topic=103032.0), [More Pictures 1](https://imgur.com/a/tHlaMWA), [More Pictures 2](https://imgur.com/a/MdbbHqe), 
 
 ## Layout
 
