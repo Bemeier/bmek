@@ -15,4 +15,4 @@ The number of screws is probably overkill.
 
 ![Technical Drawing](https://i.imgur.com/8oHu2uA.png)
 
-![Render](https://i.imgur.com/8oHu2uA.png)
+![Render](https://i.imgur.com/Y2iBSz7.jpg)
