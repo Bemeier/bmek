@@ -1,3 +1,0 @@
-# BMEK EAGLE Files
-
-TODO

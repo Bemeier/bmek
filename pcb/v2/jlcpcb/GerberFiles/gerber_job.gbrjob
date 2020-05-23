@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-10-29T14:47:14Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "BeMeierErgoPCB"
+        },
+        "Owner": "J K <j.kolkmeier@utwente.nl>",
+        "Size": {
+            "X": 352.752638,
+            "Y": 116.107
+        }
+    }
+}
