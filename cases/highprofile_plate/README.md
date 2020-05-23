@@ -6,7 +6,6 @@ The new version of the BMEK Case (not tested yet).
 - Plate for mounting switches
 - Shape of the optional 
 
-
 # Screws Required:
 Bottom Case to Top Case Screws:
 - 5x ISO 4762 M2.5x0.45x6mm (Hex head with diameter <=4.5mm) 
