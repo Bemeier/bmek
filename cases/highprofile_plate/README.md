@@ -22,6 +22,7 @@ Weight to Bottom Case Screw:
 # PCB:
 Compatible both with the [v2](https://github.com/Bemeier/bmek/tree/master/pcb/v2) and [v2.1](https://github.com/Bemeier/bmek/tree/master/pcb/v2_1) of the PCB (however v2.1 is recommended, [see this post](https://geekhack.org/index.php?topic=103032.msg2909167#msg2909167))
 
+![Render](https://i.imgur.com/hYentDr.png)
+
 ![Technical Drawing](https://i.imgur.com/kyHzoL8.png)
 
-![Render](https://i.imgur.com/hYentDr.png)
