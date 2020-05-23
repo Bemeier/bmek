@@ -6,6 +6,8 @@ The new version of the BMEK Case (not tested yet).
 - Plate for mounting switches
 - Shape of the optional 
 
+In each part folder there is a technical drawing, which include annotations of the screw threads.
+
 # Screws Required:
 
 Bottom Case to Top Case Screws:
