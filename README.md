@@ -62,6 +62,10 @@ I'll also eventually release the entire Fusion360 project at a later point, as w
 
 ![Case Assembled](https://i.imgur.com/5wR5hRO.jpg)
 
+A top-mounted version of the original case is being designed under [cases/highprofile_plate](https://github.com/Bemeier/bmek/tree/master/cases/highprofile_plate), to be made from Aluminum soon:
+
+![Top mount case render](https://i.imgur.com/hYentDr.png)
+
 ## Contributing
 
 Check out the [geekhack thread](https://geekhack.org/index.php?topic=103032.0), or use the issue system on this repository.
