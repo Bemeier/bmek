@@ -12,7 +12,7 @@ FILE_NAME(
 /* name */ 
 'C:/Users/janko/Documents/GitHub/bmek/cases/highprofile_plate/BottomWe
 ight/ExportBottomWeight.step',
-/* time_stamp */ '2020-05-23T19:32:40+02:00',
+/* time_stamp */ '2020-05-29T00:35:43+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -600,17 +600,17 @@ SOLID_ANGLE_UNIT()
 #521=PRODUCT_DEFINITION_SHAPE('',$,#524);
 #522=SHAPE_REPRESENTATION('',(#307),#514);
 #523=PRODUCT_DEFINITION_CONTEXT('part definition',#528,'design');
-#524=PRODUCT_DEFINITION('ExportBottomWeight','ExportBottomWeight v2',#525,
+#524=PRODUCT_DEFINITION('ExportBottomWeight','ExportBottomWeight v5',#525,
 #523);
 #525=PRODUCT_DEFINITION_FORMATION('',$,#530);
-#526=PRODUCT_RELATED_PRODUCT_CATEGORY('ExportBottomWeight v2',
-'ExportBottomWeight v2',(#530));
+#526=PRODUCT_RELATED_PRODUCT_CATEGORY('ExportBottomWeight v5',
+'ExportBottomWeight v5',(#530));
 #527=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#528);
 #528=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #529=PRODUCT_CONTEXT('part definition',#528,'mechanical');
-#530=PRODUCT('ExportBottomWeight','ExportBottomWeight v2',$,(#529));
+#530=PRODUCT('ExportBottomWeight','ExportBottomWeight v5',$,(#529));
 #531=PRESENTATION_STYLE_ASSIGNMENT((#533));
 #532=PRESENTATION_STYLE_ASSIGNMENT((#534));
 #533=SURFACE_STYLE_USAGE(.BOTH.,#535);
