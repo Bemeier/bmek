@@ -22,6 +22,9 @@ PCB to Top Case Screw:
 Weight to Bottom Case Screw:
 - 3x ISO 10642 M3x0.5x6mm (Sinkhead, total length is <= 6mm) 
 
+Screw for the 2.25u layout blocker:
+- 1x ISO 4762 M2x0.4x3mm
+
 # PCB:
 
 Compatible both with the [v2](https://github.com/Bemeier/bmek/tree/master/pcb/v2) and [v2.1](https://github.com/Bemeier/bmek/tree/master/pcb/v2_1) of the PCB (however v2.1 is recommended, [see this post](https://geekhack.org/index.php?topic=103032.msg2909167#msg2909167))
