@@ -10,7 +10,7 @@ Notable differences are the [HHKB-like](https://www.hhkeyboard.com/) layout and 
 - [More Pictures 2](https://imgur.com/a/MdbbHqe)
 
 ## UPDATES & GROUPBUY COMING!
-Before you jump in and start making your own case, consider checking out the [Geekhack Thread](https://geekhack.org/index.php?topic=103032.0). There will be a small group-buy for aluminum cases, plates and PCBs. 
+Before you jump in and start making your own case, consider checking out the [Geekhack Thread](https://geekhack.org/index.php?topic=103032.0) or [Discord Server](https://discord.gg/BFZNmtM). There will be a small group-buy for aluminum cases, plates and PCBs. 
 
 ## Layout
 The main key layout (besides the extra 4 key-cluster on the left) is almost exactly the [Layout of the HHKB](https://deskthority.net/wiki/HHKB_Professional2). The only changes are in the bottom row:
@@ -78,7 +78,7 @@ A top-mounted version of the original case is being designed under [cases/highpr
 
 ## Contributing
 
-Check out the [geekhack thread](https://geekhack.org/index.php?topic=103032.0), or use the issue system on this repository.
+Check out the [geekhack thread](https://geekhack.org/index.php?topic=103032.0), [Discord Server](https://discord.gg/BFZNmtM), or use the issue system on this repository.
 
 ## Disclaimer
 
