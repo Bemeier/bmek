@@ -37,7 +37,8 @@ With this version, both hot-swap sockets and permanent soldering are supported. 
 The PCB design was based on the schematics from the [Goldfish](https://github.com/Dr-Derivative/Goldfish) controller.
 
 All Gerber & BOM files needed for ordering at JLCPCB are under [pcb](https://github.com/Bemeier/bmek/tree/master/pcb).
-It can be ordered with pick-and-place assembly. Only top-mounted LEDs (optional), hot-swap sockets (optional) and USB-C connector need to be ordered separately and soldered by hand. 
+It can be ordered with pick-and-place assembly. Only top-mounted LEDs (optional), hot-swap sockets (optional) and USB-C connector need to be ordered separately and soldered by hand.
+
 ![PCBv2 top](https://i.imgur.com/iHjo18j.jpg)
 ![PCBv2 bottom](https://i.imgur.com/7royTzh.jpg)
 
@@ -57,19 +58,21 @@ Version 3 of the PCB comes in either hotswap or solder version, not in a combine
 
 
 ### Integrated Case
-
 3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate or aluminium) are under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
 
 ![BMEK](https://i.imgur.com/3rHByZJ.jpg)
 ![Case Assembled](https://i.imgur.com/5wR5hRO.jpg)
 
+### Top-mounted plate Case
+A top-mounted version of the original case is being designed under [cases/highprofile_plate](https://github.com/Bemeier/bmek/tree/master/cases/highprofile_plate), to be made from Aluminum or PC. 
+
+![Top Mounted 1](https://i.imgur.com/kyHzoL8.png)
+![Top Mounted 2](https://i.imgur.com/V3CMgFS.png)
+
 ### Lasercut Case
 
 Not made yet, will put files here: ([cases/lasercut](https://github.com/Bemeier/bmek/tree/master/cases/lasercut)).
 
-### Top-mounted plate Case
-
-A top-mounted version of the original case is being designed under [cases/highprofile_plate](https://github.com/Bemeier/bmek/tree/master/cases/highprofile_plate), to be made from Aluminum or PC. 
 
 ## Disclaimer & Contributing
 
