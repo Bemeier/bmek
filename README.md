@@ -36,13 +36,8 @@ With this version, both hot-swap sockets and permanent soldering are supported. 
 
 The PCB design was based on the schematics from the [Goldfish](https://github.com/Dr-Derivative/Goldfish) controller.
 
-All Gerber & BOM files needed for ordering at JLCPCB are under [pcb/jlcpcb](https://github.com/Bemeier/bmek/tree/master/pcb/jlcpcb).
-It can be ordered with pick-and-place assembly. SMD part costs from jlcpcb quotation (ordering 5 PCBs with pick & place).
-Only top-mounted LEDs (optional), hot-swap sockets (optional) and USB-C connector need to be ordered separately and soldered by hand.
-When ordering 5 boards (MOQ), the cost comes out to ~12$ per board, including assembly, but excluding USB-C connector and LEDs.
-
-Fully working PCBv2:
-
+All Gerber & BOM files needed for ordering at JLCPCB are under [pcb](https://github.com/Bemeier/bmek/tree/master/pcb).
+It can be ordered with pick-and-place assembly. Only top-mounted LEDs (optional), hot-swap sockets (optional) and USB-C connector need to be ordered separately and soldered by hand. 
 ![PCBv2 top](https://i.imgur.com/iHjo18j.jpg)
 ![PCBv2 bottom](https://i.imgur.com/7royTzh.jpg)
 
