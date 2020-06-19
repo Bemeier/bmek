@@ -17,3 +17,7 @@ While v2.1 of the PCB  addressed some small changes to the PCB profile to make s
 - ESD protection circuity
 - Switched to the popular, cheaper and easier to hand-solder [HRO-TYPE-C-31-M-12](https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html) USB-C receptacle
 - Made completely from scratch in KiCad (project will be released as soon as design is verified)
+
+## BOM
+
+See [BOM for v2](https://github.com/Bemeier/bmek/tree/master/pcb/v2/jlcpcb#bom-v2--v21)
