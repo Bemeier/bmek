@@ -76,13 +76,10 @@ Not made yet, will put files here: ([cases/lasercut](https://github.com/Bemeier/
 
 A top-mounted version of the original case is being designed under [cases/highprofile_plate](https://github.com/Bemeier/bmek/tree/master/cases/highprofile_plate), to be made from Aluminum or PC. 
 
-## Contributing
+## Disclaimer & Contributing
 
-Check out the [geekhack thread](https://geekhack.org/index.php?topic=103032.0), [Discord Server](https://discord.gg/BFZNmtM), or use the issue system on this repository.
+Obviously you will be building the PCB or case at your own risk, but feel free to reach out if you need help or want to contribute. Check out the [geekhack thread](https://geekhack.org/index.php?topic=103032.0), [Discord Server](https://discord.gg/BFZNmtM), or use the issue system on this repository.
 
-## Disclaimer
-
-Obviously you will be building the PCB or case at your own risk, but feel free to reach out if you need help.
 
 ## License
 
