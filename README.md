@@ -1,6 +1,7 @@
 # Hardware for BMEK - Bemeier Ergonomic Keyboard
 
-![BMEK](https://i.imgur.com/3rHByZJ.jpg)
+![Top mount case render](https://i.imgur.com/hYentDr.png)
+
 
 
 BMEK is an ergonomic keyboard in the spirit of [Lyn's EM7](https://geekhack.org/index.php?topic=83328.0) and [TGR Alice](https://geekhack.org/index.php?topic=95009.0).
@@ -57,14 +58,16 @@ USB-C Receptacle - 632723300011|€4.00|1
 
 ## Cases
 
-3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate & aluminium) are under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
+3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate or aluminium) are under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
+
 I'll also eventually release the entire Fusion360 project at a later point, as well as lasercut plate and case files ([cases/lasercut](https://github.com/Bemeier/bmek/tree/master/cases/lasercut)).
 
+
+![BMEK](https://i.imgur.com/3rHByZJ.jpg)
 ![Case Assembled](https://i.imgur.com/5wR5hRO.jpg)
 
-A top-mounted version of the original case is being designed under [cases/highprofile_plate](https://github.com/Bemeier/bmek/tree/master/cases/highprofile_plate), to be made from Aluminum soon:
+A top-mounted version of the original case is being designed under [cases/highprofile_plate](https://github.com/Bemeier/bmek/tree/master/cases/highprofile_plate), to be made from Aluminum soon.
 
-![Top mount case render](https://i.imgur.com/hYentDr.png)
 
 ## Contributing
 
