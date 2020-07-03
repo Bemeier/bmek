@@ -21,7 +21,7 @@ The main key layout (besides the extra 4 key-cluster on the left) is almost exac
 These versions of the PCB only support the fixed layout as described above. Note that you'll need 2x2.75 spacebars. Most GMK (spacebar) kits only come with one, but you can always use a 2.75u or 2.25 shift key or spacebar and live with a little gap :)
 
 ### Layout with PCB V3
-The upcomming V3 of the PCB will support a 2u backspace option, as well as 2.25u/2.75u layout options for the spacebars (the new version of the case comes with a "blocker" to fill in the gap that is created when using the 2.25u spacebar).
+The upcomming V3 of the PCB will support a 2u backspace option, as well as 2.25u/2.75u layout options for the spacebars (the new version of the case comes with a "blocker" to fill in the gap that is created when using the 2.25u spacebar) and an option to use full or split rshift.
 
 ## Firmware
 Setup QMK and run `make bemeier/bmek:default`  
