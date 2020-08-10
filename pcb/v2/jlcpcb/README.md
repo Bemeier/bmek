@@ -1,5 +1,6 @@
 # Ordering BMEK PCB at JLCPCB
 
+**Use at your own risk.**
 
 Go to [jlcpcb.com](https://jlcpcb.com) and get a quotation. Use the .zip for uploading gerber files. For assembly, use BOM_LED.csv and CPL_LED.csv.
 
