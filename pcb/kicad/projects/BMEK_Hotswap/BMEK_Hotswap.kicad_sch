@@ -1,4 +1,4 @@
-(kicad_sch (version 20200602) (host eeschema "(5.99.0-1918-g94cd0cf3a)")
+(kicad_sch (version 20200714) (host eeschema "(5.99.0-2612-g32a7d0025-dirty)")
 
   (page 1 1)
 
@@ -34,23 +34,40 @@
       )
       (symbol "D_TVS_UNIDIRECTIONAL_0_1"
         (polyline
-          (pts (xy -1.27 1.27) (xy -1.27 -1.27))
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 0) (xy -1.27 0))
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27))
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 1.27) (xy -1.778 1.27))
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.778 1.27)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -1.27) (xy -0.762 -1.27))
+          (pts
+            (xy -1.27 -1.27)
+            (xy -0.762 -1.27)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
       )
@@ -165,11 +182,18 @@
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -1.27) (xy -1.27 1.27))
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+          )
           (stroke (width 0.127)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 1.27) (xy 0 1.27) (xy -1.27 1.905))
+          (pts
+            (xy 1.27 1.27)
+            (xy 0 1.27)
+            (xy -1.27 1.905)
+          )
           (stroke (width 0.127)) (fill (type none))
         )
       )
@@ -202,7 +226,12 @@
           (stroke (width 0.0006)) (fill (type none))
         )
         (polyline
-          (pts (xy -5.08 2.54) (xy -5.08 -2.54) (xy 5.08 -2.54) (xy 5.08 2.54))
+          (pts
+            (xy -5.08 2.54)
+            (xy -5.08 -2.54)
+            (xy 5.08 -2.54)
+            (xy 5.08 2.54)
+          )
           (stroke (width 0.0006)) (fill (type none))
         )
       )
@@ -427,11 +456,17 @@
       )
       (symbol "C_Small_0_1"
         (polyline
-          (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
           (stroke (width 0.3302)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.524 0.508) (xy 1.524 0.508))
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
           (stroke (width 0.3048)) (fill (type none))
         )
       )
@@ -473,19 +508,35 @@
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -0.762) (xy -1.27 0.762))
+          (pts
+            (xy -1.27 -0.762)
+            (xy -1.27 0.762)
+          )
           (stroke (width 0.381)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -0.762) (xy 1.27 0.762))
+          (pts
+            (xy 1.27 -0.762)
+            (xy 1.27 0.762)
+          )
           (stroke (width 0.381)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27))
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 -1.905)
+            (xy 1.27 -1.905)
+            (xy 1.27 -1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27))
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 1.905)
+            (xy 1.27 1.905)
+            (xy 1.27 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -535,11 +586,19 @@
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0 -2.54))
+          (pts
+            (xy 0 2.54)
+            (xy 0 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54))
+          (pts
+            (xy -1.524 2.54)
+            (xy -1.524 1.524)
+            (xy 1.524 -1.524)
+            (xy 1.524 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -616,15 +675,26 @@
       )
       (symbol "1N4148W_0_1"
         (polyline
-          (pts (xy -1.27 1.27) (xy -1.27 -1.27))
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 0) (xy -1.27 0))
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27))
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
       )
@@ -671,31 +741,57 @@
           (stroke (width 0.254)) (fill (type background))
         )
         (polyline
-          (pts (xy 1.27 -3.556) (xy 1.778 -3.556))
+          (pts
+            (xy 1.27 -3.556)
+            (xy 1.778 -3.556)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -2.54) (xy 1.778 -2.54))
+          (pts
+            (xy 1.27 -2.54)
+            (xy 1.778 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 4.699 -3.556) (xy 2.667 -3.556))
+          (pts
+            (xy 4.699 -3.556)
+            (xy 2.667 -3.556)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048))
+          (pts
+            (xy 2.286 -2.54)
+            (xy 1.27 -3.556)
+            (xy 1.27 -3.048)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032))
+          (pts
+            (xy 2.286 -1.524)
+            (xy 1.27 -2.54)
+            (xy 1.27 -2.032)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064))
+          (pts
+            (xy 3.683 -1.016)
+            (xy 3.683 -3.556)
+            (xy 3.683 -4.064)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524))
+          (pts
+            (xy 4.699 -1.524)
+            (xy 2.667 -1.524)
+            (xy 3.683 -3.556)
+            (xy 4.699 -1.524)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -947,11 +1043,17 @@
         (circle (center -2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
         (circle (center 2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
         (polyline
-          (pts (xy 0 1.27) (xy 0 3.048))
+          (pts
+            (xy 0 1.27)
+            (xy 0 3.048)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 1.27) (xy -2.54 1.27))
+          (pts
+            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (pin passive line (at -5.08 0 0) (length 2.54)
@@ -985,19 +1087,31 @@
       )
       (symbol "Earth_0_1"
         (polyline
-          (pts (xy -0.635 -1.905) (xy 0.635 -1.905))
+          (pts
+            (xy -0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.127 -2.54) (xy 0.127 -2.54))
+          (pts
+            (xy -0.127 -2.54)
+            (xy 0.127 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 -1.27) (xy 0 0))
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -1.27) (xy -1.27 -1.27))
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -1029,8 +1143,13 @@
       )
       (symbol "GND_0_1"
         (polyline
-          (pts (xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54)
-               (xy -1.27 -1.27) (xy 0 -1.27)
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -1063,15 +1182,24 @@
       )
       (symbol "VBUS_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -1103,15 +1231,24 @@
       )
       (symbol "VCC_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -1124,173 +1261,173 @@
     )
   )
 
-  (junction (at 28.321 176.784))
-  (junction (at 28.321 200.279))
-  (junction (at 28.321 223.774))
-  (junction (at 38.1 42.164))
-  (junction (at 39.751 165.989))
-  (junction (at 39.751 189.484))
-  (junction (at 39.751 212.979))
-  (junction (at 39.751 228.6))
-  (junction (at 39.751 236.474))
-  (junction (at 40.894 44.704))
-  (junction (at 42.672 34.544))
-  (junction (at 44.831 176.784))
-  (junction (at 44.831 200.279))
-  (junction (at 44.831 216.027))
-  (junction (at 44.831 223.266))
-  (junction (at 44.831 247.269))
-  (junction (at 56.261 165.989))
-  (junction (at 56.261 189.484))
-  (junction (at 56.261 212.979))
-  (junction (at 56.261 236.474))
-  (junction (at 56.261 259.969))
-  (junction (at 61.341 176.784))
-  (junction (at 61.341 200.279))
-  (junction (at 61.341 223.774))
-  (junction (at 61.341 247.269))
-  (junction (at 64.77 54.864))
-  (junction (at 64.77 59.944))
-  (junction (at 72.771 165.989))
-  (junction (at 72.771 189.484))
-  (junction (at 72.771 212.979))
-  (junction (at 72.771 236.474))
-  (junction (at 72.771 259.969))
-  (junction (at 77.851 176.784))
-  (junction (at 77.851 200.279))
-  (junction (at 77.851 223.774))
-  (junction (at 77.851 247.269))
-  (junction (at 89.281 165.989))
-  (junction (at 89.281 189.484))
-  (junction (at 89.281 212.979))
-  (junction (at 89.281 236.474))
-  (junction (at 94.361 176.784))
-  (junction (at 94.361 200.279))
-  (junction (at 94.361 223.774))
-  (junction (at 105.791 165.989))
-  (junction (at 105.791 189.484))
-  (junction (at 105.791 212.979))
-  (junction (at 105.791 236.474))
-  (junction (at 105.791 252.349))
-  (junction (at 105.791 259.969))
-  (junction (at 110.871 176.784))
-  (junction (at 110.871 200.279))
-  (junction (at 110.871 223.774))
-  (junction (at 110.871 240.284))
-  (junction (at 110.871 247.269))
-  (junction (at 117.1956 40.1574))
-  (junction (at 117.1956 45.2374))
-  (junction (at 122.301 165.989))
-  (junction (at 122.301 189.484))
-  (junction (at 122.301 212.979))
-  (junction (at 122.301 236.474))
-  (junction (at 127.381 176.784))
-  (junction (at 127.381 200.279))
-  (junction (at 127.381 223.774))
-  (junction (at 136.652 43.053))
-  (junction (at 155.321 165.989))
-  (junction (at 155.321 189.484))
-  (junction (at 155.321 212.979))
-  (junction (at 155.321 236.474))
-  (junction (at 155.956 88.392))
-  (junction (at 155.956 107.442))
-  (junction (at 160.401 176.784))
-  (junction (at 160.401 200.279))
-  (junction (at 160.401 223.774))
-  (junction (at 171.831 165.989))
-  (junction (at 171.831 189.484))
-  (junction (at 171.831 212.979))
-  (junction (at 171.831 236.474))
-  (junction (at 171.831 252.349))
-  (junction (at 171.831 259.969))
-  (junction (at 176.911 176.784))
-  (junction (at 176.911 200.279))
-  (junction (at 176.911 223.774))
-  (junction (at 176.911 240.284))
-  (junction (at 176.911 247.269))
-  (junction (at 181.356 88.392))
-  (junction (at 181.356 107.442))
-  (junction (at 188.341 165.989))
-  (junction (at 188.341 189.484))
-  (junction (at 188.341 212.979))
-  (junction (at 188.341 236.474))
-  (junction (at 193.421 176.784))
-  (junction (at 193.421 200.279))
-  (junction (at 193.421 223.774))
-  (junction (at 204.851 165.989))
-  (junction (at 204.851 189.484))
-  (junction (at 204.851 212.979))
-  (junction (at 204.851 236.474))
-  (junction (at 204.851 259.969))
-  (junction (at 206.756 88.392))
-  (junction (at 206.756 107.442))
-  (junction (at 209.931 176.784))
-  (junction (at 209.931 200.279))
-  (junction (at 209.931 223.774))
-  (junction (at 209.931 247.269))
-  (junction (at 212.598 28.956))
-  (junction (at 212.598 39.116))
-  (junction (at 221.361 165.989))
-  (junction (at 221.361 189.484))
-  (junction (at 221.361 212.979))
-  (junction (at 221.361 236.474))
-  (junction (at 221.361 259.969))
-  (junction (at 225.298 28.956))
-  (junction (at 225.298 39.116))
-  (junction (at 226.441 176.784))
-  (junction (at 226.441 200.279))
-  (junction (at 226.441 223.774))
-  (junction (at 226.441 247.269))
-  (junction (at 237.49 88.392))
-  (junction (at 237.49 107.442))
-  (junction (at 237.871 165.989))
-  (junction (at 237.871 189.484))
-  (junction (at 237.871 212.979))
-  (junction (at 237.871 236.474))
-  (junction (at 237.998 28.956))
-  (junction (at 237.998 39.116))
-  (junction (at 242.951 176.784))
-  (junction (at 242.951 200.279))
-  (junction (at 242.951 223.774))
-  (junction (at 250.698 28.956))
-  (junction (at 250.698 39.116))
-  (junction (at 254.381 165.989))
-  (junction (at 254.381 189.484))
-  (junction (at 254.381 212.979))
-  (junction (at 254.381 228.6))
-  (junction (at 254.381 236.474))
-  (junction (at 259.461 176.784))
-  (junction (at 259.461 200.279))
-  (junction (at 259.461 215.392))
-  (junction (at 259.461 223.393))
-  (junction (at 262.89 88.392))
-  (junction (at 262.89 107.442))
-  (junction (at 268.478 28.956))
-  (junction (at 268.478 39.116))
-  (junction (at 270.891 158.369))
-  (junction (at 270.891 165.989))
-  (junction (at 270.891 189.484))
-  (junction (at 270.891 212.979))
-  (junction (at 270.891 236.474))
-  (junction (at 275.971 153.289))
-  (junction (at 275.971 176.784))
-  (junction (at 275.971 200.279))
-  (junction (at 275.971 223.774))
-  (junction (at 288.29 88.392))
-  (junction (at 288.29 107.442))
-  (junction (at 339.09 62.992))
-  (junction (at 359.664 20.574))
-  (junction (at 362.204 20.574))
-  (junction (at 374.777 152.019))
-  (junction (at 379.73 207.264))
-  (junction (at 379.857 164.719))
-  (junction (at 384.937 152.019))
+  (junction (at 28.321 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 28.321 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 28.321 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 38.1 42.164) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 39.751 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 39.751 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 39.751 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 39.751 228.6) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 39.751 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 40.894 44.704) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 42.672 34.544) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 44.831 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 44.831 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 44.831 216.027) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 44.831 223.266) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 44.831 247.269) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 56.261 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 56.261 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 56.261 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 56.261 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 56.261 259.969) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 61.341 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 61.341 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 61.341 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 61.341 247.269) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 64.77 54.864) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 64.77 59.944) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 72.771 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 72.771 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 72.771 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 72.771 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 72.771 259.969) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 77.851 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 77.851 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 77.851 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 77.851 247.269) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 89.281 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 89.281 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 89.281 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 89.281 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 94.361 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 94.361 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 94.361 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 105.791 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 105.791 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 105.791 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 105.791 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 105.791 252.349) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 105.791 259.969) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 110.871 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 110.871 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 110.871 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 110.871 240.284) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 110.871 247.269) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 117.1956 40.1574) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 117.1956 45.2374) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 122.301 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 122.301 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 122.301 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 122.301 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 127.381 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 127.381 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 127.381 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 136.652 43.053) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 155.321 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 155.321 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 155.321 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 155.321 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 155.956 88.392) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 155.956 107.442) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 160.401 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 160.401 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 160.401 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 171.831 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 171.831 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 171.831 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 171.831 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 171.831 252.349) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 171.831 259.969) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 176.911 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 176.911 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 176.911 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 176.911 240.284) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 176.911 247.269) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 181.356 88.392) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 181.356 107.442) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 188.341 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 188.341 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 188.341 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 188.341 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 193.421 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 193.421 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 193.421 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 204.851 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 204.851 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 204.851 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 204.851 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 204.851 259.969) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 206.756 88.392) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 206.756 107.442) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 209.931 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 209.931 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 209.931 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 209.931 247.269) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 212.598 28.956) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 212.598 39.116) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 221.361 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 221.361 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 221.361 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 221.361 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 221.361 259.969) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 225.298 28.956) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 225.298 39.116) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 226.441 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 226.441 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 226.441 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 226.441 247.269) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 237.49 88.392) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 237.49 107.442) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 237.871 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 237.871 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 237.871 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 237.871 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 237.998 28.956) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 237.998 39.116) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 242.951 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 242.951 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 242.951 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 250.698 28.956) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 250.698 39.116) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 254.381 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 254.381 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 254.381 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 254.381 228.6) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 254.381 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 259.461 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 259.461 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 259.461 215.392) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 259.461 223.393) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 262.89 88.392) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 262.89 107.442) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 268.478 28.956) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 268.478 39.116) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 270.891 158.369) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 270.891 165.989) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 270.891 189.484) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 270.891 212.979) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 270.891 236.474) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 275.971 153.289) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 275.971 176.784) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 275.971 200.279) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 275.971 223.774) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 288.29 88.392) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 288.29 107.442) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 339.09 62.992) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 359.664 20.574) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 362.204 20.574) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 374.777 152.019) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 379.73 207.264) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 379.857 164.719) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 384.937 152.019) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 162.814 51.689))
-  (no_connect (at 167.894 31.369))
-  (no_connect (at 377.444 29.972))
-  (no_connect (at 34.798 37.084))
   (no_connect (at 34.798 52.324))
+  (no_connect (at 34.798 37.084))
+  (no_connect (at 167.894 31.369))
+  (no_connect (at 162.814 51.689))
+  (no_connect (at 377.444 29.972))
 
   (wire (pts (xy 23.241 165.989) (xy 39.751 165.989))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2624,7 +2761,7 @@
   )
 
   (symbol (lib_id "power:VBUS") (at 44.958 34.544 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "768a87f4-2e55-4e55-a638-4a977d0d9634")
     (property "Reference" "#PWR0111" (id 0) (at 41.148 34.544 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2641,7 +2778,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 55.245 78.74 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "cc2c8a3e-35ae-49ba-ae34-4e770f3dd6ab")
     (property "Reference" "#PWR0136" (id 0) (at 55.245 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2656,7 +2793,7 @@
   )
 
   (symbol (lib_id "power:VBUS") (at 61.722 38.1 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8c3bee42-a9c0-4642-b840-758ccbfd78d8")
     (property "Reference" "#PWR0131" (id 0) (at 65.532 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2673,7 +2810,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 136.652 46.609 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "4897f9fa-4b7b-4bf6-8686-ec4608f20c39")
     (property "Reference" "#PWR02" (id 0) (at 136.652 42.799 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2688,7 +2825,7 @@
   )
 
   (symbol (lib_id "power:VBUS") (at 147.32 31.369 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "2eb8d6b4-1876-4d05-9c54-ec9fd52e26bb")
     (property "Reference" "#PWR04" (id 0) (at 147.32 35.179 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2705,7 +2842,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 155.956 87.122 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "00c03350-db60-41b7-ae9f-2b37143d3a61")
     (property "Reference" "#PWR0132" (id 0) (at 155.956 90.932 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2720,7 +2857,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 165.354 27.686 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "415025af-0666-44e6-b206-9508d28f820b")
     (property "Reference" "#PWR0109" (id 0) (at 165.354 31.496 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2735,7 +2872,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 181.356 87.122 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "3b2bafbb-d767-42c3-ba9c-fb5575918ce0")
     (property "Reference" "#PWR0129" (id 0) (at 181.356 90.932 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2750,7 +2887,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 206.756 87.122 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "17b9e324-8623-4621-a7c5-aa06c5ae4fdc")
     (property "Reference" "#PWR0124" (id 0) (at 206.756 90.932 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2765,7 +2902,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 212.598 26.416 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "b8f0d9e4-344d-4c7a-8095-61c78db4465b")
     (property "Reference" "#PWR0117" (id 0) (at 212.598 30.226 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2780,7 +2917,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 237.49 87.122 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "305cc444-d827-4cfb-937f-952d4401931a")
     (property "Reference" "#PWR0125" (id 0) (at 237.49 90.932 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2795,7 +2932,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 262.89 87.122 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "91df5456-cc12-4186-a688-d06f1cfcc6c4")
     (property "Reference" "#PWR0120" (id 0) (at 262.89 90.932 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2810,7 +2947,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 288.29 87.122 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8fbcfc46-9f81-435d-af45-4855cc62e0e9")
     (property "Reference" "#PWR0122" (id 0) (at 288.29 90.932 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2825,7 +2962,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 344.932 50.292 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "cad140b6-7aab-4026-b06d-4559e1761eb8")
     (property "Reference" "#PWR0107" (id 0) (at 348.742 50.292 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2840,7 +2977,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 356.616 20.574 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "dea3075b-e15b-4367-ac41-86d14561175b")
     (property "Reference" "#PWR0119" (id 0) (at 360.426 20.574 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2855,7 +2992,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 379.73 197.104 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "e66f91cb-5617-48fe-a0de-5a5cd86f0cec")
     (property "Reference" "#PWR0115" (id 0) (at 379.73 200.914 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2870,7 +3007,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 36.83 32.004 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "95b3c222-f2e6-4fdb-8201-dd8a0d7ab305")
     (property "Reference" "#PWR0118" (id 0) (at 36.83 25.654 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2885,7 +3022,7 @@
   )
 
   (symbol (lib_id "power:Earth") (at 37.084 62.484 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "19b17b6d-a49f-416e-bbe4-72316e307dc0")
     (property "Reference" "#PWR0113" (id 0) (at 37.084 68.834 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2902,7 +3039,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 55.245 106.045 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "5f832598-90bd-4aae-9ae1-8a377eea0827")
     (property "Reference" "#PWR0135" (id 0) (at 55.245 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2917,7 +3054,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 61.722 30.48 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "5b57b490-575a-4d7a-a321-25852c79318f")
     (property "Reference" "#PWR0130" (id 0) (at 55.372 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2932,7 +3069,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 64.77 62.738 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "200f688b-fb3b-4b6b-a1e6-b3a3668a27b4")
     (property "Reference" "#PWR0112" (id 0) (at 64.77 69.088 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2947,7 +3084,7 @@
   )
 
   (symbol (lib_id "power:Earth") (at 117.1956 35.0774 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "d6845795-576a-40a5-9c0e-e9c6fab6bcda")
     (property "Reference" "#PWR03" (id 0) (at 117.1956 28.7274 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2964,7 +3101,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 117.1956 50.3174 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "7532c8be-9fa7-4d55-a638-9cd2ba23eb25")
     (property "Reference" "#PWR01" (id 0) (at 117.1956 56.6674 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2979,7 +3116,7 @@
   )
 
   (symbol (lib_id "power:Earth") (at 117.3226 27.4574 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "22c7812f-9128-4cd7-a6c4-c9fbe3f2155a")
     (property "Reference" "#PWR0101" (id 0) (at 117.3226 33.8074 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2996,7 +3133,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 136.652 31.369 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "64b88c03-ef37-49a0-aa1d-96f92bbe878d")
     (property "Reference" "#PWR0110" (id 0) (at 136.652 25.019 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3011,7 +3148,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 155.956 109.982 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "77b84828-6e28-478d-a554-0cb7c76dd962")
     (property "Reference" "#PWR0133" (id 0) (at 155.956 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3026,7 +3163,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 165.354 55.753 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "4f38f382-fcab-4d39-ba0d-617deccc6ff6")
     (property "Reference" "#PWR0108" (id 0) (at 165.354 62.103 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3041,7 +3178,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 181.356 109.982 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "09ff323d-9e1c-4d51-a13c-0d0534dec3f8")
     (property "Reference" "#PWR0127" (id 0) (at 181.356 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3056,7 +3193,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 206.756 109.982 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "96d53237-b509-4e73-98ba-522d0503c248")
     (property "Reference" "#PWR0128" (id 0) (at 206.756 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3071,7 +3208,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 212.598 41.656 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "3e369066-812c-491f-8048-62fedbe07231")
     (property "Reference" "#PWR0116" (id 0) (at 212.598 48.006 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3086,7 +3223,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 237.49 109.982 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "cc793ce0-9242-456f-9979-630d79999f93")
     (property "Reference" "#PWR0126" (id 0) (at 237.49 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3101,7 +3238,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 262.89 109.982 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "6dabd8fd-f93e-49d3-a960-e94e81e28af7")
     (property "Reference" "#PWR0121" (id 0) (at 262.89 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3116,7 +3253,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 288.29 109.982 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "9f7120ea-e8ed-4441-87f4-1726728ce3a8")
     (property "Reference" "#PWR0123" (id 0) (at 288.29 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3131,7 +3268,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 337.312 45.212 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "6890d1bd-a22a-40f9-84e0-c090d758ff5e")
     (property "Reference" "#PWR0105" (id 0) (at 330.962 45.212 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3146,7 +3283,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 338.074 62.992 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "19d0668a-92bb-45e6-b2c9-19011fdaaa52")
     (property "Reference" "#PWR0106" (id 0) (at 331.724 62.992 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3161,7 +3298,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 362.204 121.158 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "642757b0-07dd-45ed-bf2e-da7fd77310d8")
     (property "Reference" "#PWR0102" (id 0) (at 362.204 127.508 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3176,7 +3313,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 364.236 207.264 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "5ad0d028-4d71-402a-9e0b-57eb4188ae2d")
     (property "Reference" "#PWR0114" (id 0) (at 357.886 207.264 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3191,7 +3328,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 379.857 148.082 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0b4cda3d-537a-4f3a-9be0-13db03d95cc2")
     (property "Reference" "#PWR0134" (id 0) (at 379.857 141.732 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3206,7 +3343,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 379.857 167.513 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "d3cb390b-ce8a-427b-a82f-182c190b919a")
     (property "Reference" "#PWR0103" (id 0) (at 379.857 173.863 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3221,7 +3358,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 392.43 83.312 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "cb4a2d55-1650-47bf-983e-d28a146a600e")
     (property "Reference" "#PWR0104" (id 0) (at 398.78 83.312 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3236,7 +3373,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 57.912 51.308 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "c4f24b0e-e2d0-4c5b-9ad5-9727e7f251fb")
     (property "Reference" "R3" (id 0) (at 57.912 49.53 90))
     (property "Value" "5k1Ω" (id 1) (at 57.912 51.308 90))
@@ -3252,7 +3389,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 57.912 54.864 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0b6c23ad-903b-47ac-af2f-c658069d0a62")
     (property "Reference" "R4" (id 0) (at 57.912 56.896 90))
     (property "Value" "5k1Ω" (id 1) (at 57.912 54.864 90))
@@ -3268,7 +3405,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 119.7356 42.6974 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "f7389e24-e468-4c62-89ab-b2058885c771")
     (property "Reference" "R5" (id 0) (at 122.0216 40.5384 0))
     (property "Value" "1MΩ" (id 1) (at 122.2756 44.7294 0))
@@ -3287,7 +3424,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 140.716 97.282 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "d834c9d4-b3b2-43a1-8e10-f082ac11b8fd")
     (property "Reference" "R8" (id 0) (at 140.716 99.314 90))
     (property "Value" "470Ω" (id 1) (at 140.716 97.282 90))
@@ -3303,7 +3440,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 342.9 55.372 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8112e6dc-f032-411b-83cb-644c17c21b17")
     (property "Reference" "R1" (id 0) (at 342.773 53.594 90))
     (property "Value" "22Ω" (id 1) (at 342.9 55.2958 90))
@@ -3319,7 +3456,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 342.9 57.912 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "616c564e-7de7-4dae-bc31-cd7ec31a74ee")
     (property "Reference" "R2" (id 0) (at 342.9 59.69 90))
     (property "Value" "22Ω" (id 1) (at 342.9508 57.8104 90))
@@ -3335,7 +3472,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 379.73 200.66 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ec87a0f9-719e-438a-8472-931c466be0b8")
     (property "Reference" "R6" (id 0) (at 382.27 200.533 0))
     (property "Value" "10kΩ" (id 1) (at 379.476 200.66 90))
@@ -3351,7 +3488,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 381.508 83.312 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "e3417fd4-8ddb-4935-93e7-143e172ab9aa")
     (property "Reference" "R7" (id 0) (at 381.508 81.534 90))
     (property "Value" "10kΩ" (id 1) (at 381.508 83.185 90))
@@ -3367,7 +3504,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 114.6556 42.6974 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "1841523e-6141-4a8f-9720-fd1941ed657e")
     (property "Reference" "C11" (id 0) (at 114.0206 40.5384 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3387,7 +3524,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 153.416 107.442 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "40cca924-ae7c-4864-bfb8-2f5f6eef5ec7")
     (property "Reference" "C12" (id 0) (at 149.6568 110.6932 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3407,7 +3544,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 178.816 107.442 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "5f66f020-ddf3-41ff-8829-af40920ac655")
     (property "Reference" "C13" (id 0) (at 175.6156 110.5662 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3427,7 +3564,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 204.216 107.442 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "79363d43-3c59-497f-bc12-6564baa68243")
     (property "Reference" "C14" (id 0) (at 201.168 110.617 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3447,7 +3584,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 212.598 34.036 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "319716a1-def9-4f63-8d40-c9c570fa4aa1")
     (property "Reference" "C5" (id 0) (at 214.63 34.036 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3467,7 +3604,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 225.298 34.036 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "71123820-8bc6-47ee-98cc-534ea89fe485")
     (property "Reference" "C6" (id 0) (at 227.33 34.036 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3487,7 +3624,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 234.95 107.442 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "35fc2677-0fb6-452c-a678-24e79248f0d2")
     (property "Reference" "C15" (id 0) (at 231.7496 110.8964 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3507,7 +3644,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 237.998 34.036 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "94ce9b17-2cc9-4f0b-8b03-46290906fa6f")
     (property "Reference" "C7" (id 0) (at 240.03 34.036 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3527,7 +3664,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 250.698 34.036 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "b65e6771-233a-47de-a151-e1f5267073ac")
     (property "Reference" "C8" (id 0) (at 252.73 34.036 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3547,7 +3684,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 260.35 107.442 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "61eae6a8-f607-4f6d-b31f-cbe833965855")
     (property "Reference" "C16" (id 0) (at 257.4798 110.7186 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3567,7 +3704,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 268.478 34.036 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a535ea17-aca7-458c-bd40-e7fbffaf7e65")
     (property "Reference" "C9" (id 0) (at 270.51 34.036 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3587,7 +3724,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 281.178 34.036 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "826ba1e0-9a68-495d-8b19-c01f0f2ccce4")
     (property "Reference" "C10" (id 0) (at 283.21 34.036 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3607,7 +3744,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 285.75 107.442 270) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "78cc0d9f-706e-48ba-93f5-c917f41526ef")
     (property "Reference" "C17" (id 0) (at 282.9306 111.2012 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3627,7 +3764,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 342.392 62.992 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ef8070c9-86c4-4b57-bf11-64be2ec4bcaf")
     (property "Reference" "C3" (id 0) (at 341.63 61.976 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3647,7 +3784,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 342.646 45.212 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "df540604-bcc9-4c65-9d18-f811847e3ab1")
     (property "Reference" "C4" (id 0) (at 341.63 43.688 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3667,7 +3804,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 374.777 159.639 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a4cc7956-9de3-4c1a-8671-aa7d6ee417eb")
     (property "Reference" "C1" (id 0) (at 372.745 159.766 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3687,7 +3824,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 384.937 159.639 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "bc034622-386d-4659-a006-770c853b6335")
     (property "Reference" "C2" (id 0) (at 386.969 159.639 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3707,7 +3844,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 23.241 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0990fea0-ab00-42f7-890d-16bfee0a99d2")
     (property "Reference" "DU_0_0" (id 0) (at 14.351 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3727,7 +3864,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 23.241 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "cd9a01f0-15c4-4857-9fde-66bcd62a5c78")
     (property "Reference" "DU_1_0" (id 0) (at 14.351 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3747,7 +3884,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 23.241 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "d2dccd38-ca60-4c83-902f-5a34116b94e9")
     (property "Reference" "DU_2_0" (id 0) (at 14.351 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3767,7 +3904,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 23.241 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "b953e6d1-a505-4255-a58f-288b5dad83d5")
     (property "Reference" "DU_3_0" (id 0) (at 14.351 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3787,7 +3924,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 39.751 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "efa4c34d-fd42-427d-98ba-7e57e447de1e")
     (property "Reference" "DU_0_1" (id 0) (at 30.861 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3807,7 +3944,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 39.751 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "9654790f-f022-424f-b20e-38a0d3886615")
     (property "Reference" "DU_1_1" (id 0) (at 30.861 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3827,7 +3964,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 39.751 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "759ec118-6c70-4735-8152-ea7338e965ee")
     (property "Reference" "DU_2_1" (id 0) (at 30.861 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3847,7 +3984,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 39.751 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0d1c904a-3f7d-4c07-8706-593d56dc758a")
     (property "Reference" "DU_3_1" (id 0) (at 30.861 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3867,7 +4004,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 39.751 256.159 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ab27a0c8-b3af-4010-93b0-6bf0efead5e7")
     (property "Reference" "DU_4_1" (id 0) (at 30.861 254.889 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3887,7 +4024,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 56.261 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "3f0ed4a8-5cf2-4e51-8c23-1151fc8b13af")
     (property "Reference" "DU_0_2" (id 0) (at 47.371 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3907,7 +4044,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 56.261 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "778cb4ed-e751-49e9-a25c-f9fddb6b8520")
     (property "Reference" "DU_1_2" (id 0) (at 47.371 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3927,7 +4064,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 56.261 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "4f6daea1-24c0-4985-9324-f7b233033332")
     (property "Reference" "DU_2_2" (id 0) (at 47.371 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3947,7 +4084,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 56.261 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "abeaed8f-786c-4e57-8403-abc1a8ecd51a")
     (property "Reference" "DU_3_2" (id 0) (at 47.371 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3967,7 +4104,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 56.261 256.159 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "c614f36e-52b9-4766-99b5-aafc02167b8a")
     (property "Reference" "DU_4_2" (id 0) (at 47.371 254.889 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3987,7 +4124,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 72.771 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8fa03052-8a1d-4bd6-9b00-3ca7107c629f")
     (property "Reference" "DU_0_3" (id 0) (at 63.881 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4007,7 +4144,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 72.771 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "298e04d0-d9b3-4e34-b4e4-27d225f95b05")
     (property "Reference" "DU_1_3" (id 0) (at 63.881 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4027,7 +4164,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 72.771 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "10392f4a-143b-48c8-a27f-a8a184b3e6e9")
     (property "Reference" "DU_2_3" (id 0) (at 63.881 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4047,7 +4184,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 72.771 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "6ee65423-6965-4009-9019-65bde0759f9e")
     (property "Reference" "DU_3_3" (id 0) (at 63.881 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4067,7 +4204,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 72.771 256.159 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "25fbafdb-4ce0-46f3-bbc7-b04705b41564")
     (property "Reference" "DU_4_3" (id 0) (at 63.881 254.889 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4087,7 +4224,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 89.281 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "38de0f15-6ef2-4807-82e7-5af845f72167")
     (property "Reference" "DU_0_4" (id 0) (at 80.391 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4107,7 +4244,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 89.281 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "2ed5c385-8652-46d1-87ab-af84527a7176")
     (property "Reference" "DU_1_4" (id 0) (at 80.391 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4127,7 +4264,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 89.281 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "3383de47-70e9-43b9-88eb-af23ee57d7da")
     (property "Reference" "DU_2_4" (id 0) (at 80.391 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4147,7 +4284,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 89.281 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0145a4b5-2b5a-4020-b5df-b2314d7ae051")
     (property "Reference" "DU_3_4" (id 0) (at 80.391 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4167,7 +4304,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 105.791 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "10f7656b-6f28-4235-89b7-c9d4bc886292")
     (property "Reference" "DU_0_5" (id 0) (at 96.901 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4187,7 +4324,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 105.791 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "b7aff52a-47ea-4e55-9ce6-6a2da87be288")
     (property "Reference" "DU_1_5" (id 0) (at 96.901 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4207,7 +4344,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 105.791 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "19a54be2-216a-485f-9b71-8afca89c3ab1")
     (property "Reference" "DU_2_5" (id 0) (at 96.901 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4227,7 +4364,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 105.791 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "e57022b5-9bf4-4e13-bd3d-ffcd53d0a73c")
     (property "Reference" "DU_3_5" (id 0) (at 96.901 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4247,7 +4384,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 105.791 256.159 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "f7978adf-2468-4f0d-8db0-40b66e2c9c9e")
     (property "Reference" "DU_4_5" (id 0) (at 96.901 254.889 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4267,7 +4404,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 122.301 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a700031f-289b-4217-a6a5-d46d615b4e2d")
     (property "Reference" "DU_0_6" (id 0) (at 113.411 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4287,7 +4424,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 122.301 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "dfa93674-dc89-43f0-be0a-34c0652dc45f")
     (property "Reference" "DU_1_6" (id 0) (at 113.411 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4307,7 +4444,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 122.301 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "28abcce9-7738-40e8-8b9a-f6b87a6fbc85")
     (property "Reference" "DU_2_6" (id 0) (at 113.411 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4327,7 +4464,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 122.301 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "4461d8c3-1cc2-4124-a234-a078f22d3a47")
     (property "Reference" "DU_3_6" (id 0) (at 113.411 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4347,7 +4484,7 @@
   )
 
   (symbol (lib_id "BMEK:D_TVS_UNIDIRECTIONAL") (at 136.652 37.719 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "c5489f30-9b5a-4e80-b4a1-dc07a349a4ba")
     (property "Reference" "D1" (id 0) (at 133.731 36.322 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4367,7 +4504,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 155.321 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "6eb1244b-0ff8-430c-abd0-cac577191895")
     (property "Reference" "DU_0_7" (id 0) (at 146.431 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4387,7 +4524,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 155.321 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "fbf5c7c1-f6e8-4b56-8e03-380c320a5f27")
     (property "Reference" "DU_1_7" (id 0) (at 146.431 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4407,7 +4544,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 155.321 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "7a0a09c5-628d-4851-a2b5-2976eef45942")
     (property "Reference" "DU_2_7" (id 0) (at 146.431 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4427,7 +4564,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 155.321 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "4b1f3d92-fbe4-4918-a919-1c4c6e002b89")
     (property "Reference" "DU_3_7" (id 0) (at 146.431 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4447,7 +4584,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 171.831 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "306c2f40-e297-4442-b940-dd787b05cd53")
     (property "Reference" "DU_0_8" (id 0) (at 162.941 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4467,7 +4604,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 171.831 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "5c876a8d-0dbd-4671-80d1-89351ee28190")
     (property "Reference" "DU_1_8" (id 0) (at 162.941 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4487,7 +4624,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 171.831 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "212956fe-f9c2-4f1a-bd0c-c0bfe0965b9f")
     (property "Reference" "DU_2_8" (id 0) (at 162.941 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4507,7 +4644,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 171.831 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8448a25f-e038-458f-ae11-2a6753696a4a")
     (property "Reference" "DU_3_8" (id 0) (at 162.941 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4527,7 +4664,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 171.831 256.159 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "53c4185b-b1ed-43ad-81e0-055f5ef47880")
     (property "Reference" "DU_4_8" (id 0) (at 162.941 254.889 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4547,7 +4684,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 188.341 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0f670d17-ee70-4395-bb5a-84308485daed")
     (property "Reference" "DU_0_9" (id 0) (at 179.451 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4567,7 +4704,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 188.341 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ba253e53-5ba9-4742-9d36-4ff9cb3c2573")
     (property "Reference" "DU_1_9" (id 0) (at 179.451 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4587,7 +4724,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 188.341 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "7e5d4ef4-fdd0-44a4-8eef-4b0f6c7dc788")
     (property "Reference" "DU_2_9" (id 0) (at 179.451 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4607,7 +4744,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 188.341 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "b3490c7a-2f75-4e70-b6e8-27621fe2fce9")
     (property "Reference" "DU_3_9" (id 0) (at 179.451 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4627,7 +4764,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 204.851 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "981a1095-e15b-4104-a162-9bad9a897d09")
     (property "Reference" "DU_0_10" (id 0) (at 195.961 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4647,7 +4784,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 204.851 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "852ac116-73c6-4184-9690-f6a4c4c8d06f")
     (property "Reference" "DU_1_10" (id 0) (at 195.961 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4667,7 +4804,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 204.851 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "04213b28-4647-48a4-9b37-6759dbb73398")
     (property "Reference" "DU_2_10" (id 0) (at 195.961 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4687,7 +4824,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 204.851 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "7795d951-792a-4420-9f31-86336a2c30f5")
     (property "Reference" "DU_3_10" (id 0) (at 195.961 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4707,7 +4844,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 204.851 256.159 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "dd5fc43a-083f-4a09-9c27-f99b6106b9e9")
     (property "Reference" "DU_4_10" (id 0) (at 195.961 254.889 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4727,7 +4864,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 221.361 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "2e560a21-8866-4738-a06e-c64f6e42169d")
     (property "Reference" "DU_0_11" (id 0) (at 212.471 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4747,7 +4884,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 221.361 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "9e4f0ced-4d28-4cf9-ae3b-14183bd4151f")
     (property "Reference" "DU_1_11" (id 0) (at 212.471 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4767,7 +4904,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 221.361 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a8206ce4-0fab-46fc-af9b-18610a2a82e4")
     (property "Reference" "DU_2_11" (id 0) (at 212.471 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4787,7 +4924,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 221.361 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "67b61e26-b0b1-43ab-b1e6-e809d4e30d1a")
     (property "Reference" "DU_3_11" (id 0) (at 212.471 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4807,7 +4944,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 221.361 256.159 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "6b9c9467-cc76-410b-b9ef-71a3548997df")
     (property "Reference" "DU_4_11" (id 0) (at 212.471 254.889 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4827,7 +4964,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 237.871 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "1f147054-d1a3-4d4b-90bd-a8acedac4c29")
     (property "Reference" "DU_0_12" (id 0) (at 228.981 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4847,7 +4984,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 237.871 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "24923ed2-d968-46ca-9434-ec24e56befea")
     (property "Reference" "DU_1_12" (id 0) (at 228.981 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4867,7 +5004,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 237.871 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "20b3163a-782b-49ac-925e-1e89df65beba")
     (property "Reference" "DU_2_12" (id 0) (at 228.981 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4887,7 +5024,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 237.871 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ea502a9c-bf32-4dae-b3e0-a18eef8ac4ac")
     (property "Reference" "DU_3_12" (id 0) (at 228.981 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4907,7 +5044,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 254.381 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "96e16524-2437-422c-8fc9-89548e3dea28")
     (property "Reference" "DU_0_13" (id 0) (at 245.491 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4927,7 +5064,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 254.381 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "92eed607-41aa-4293-bdc5-78f4033ce89e")
     (property "Reference" "DU_1_13" (id 0) (at 245.491 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4947,7 +5084,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 254.381 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "4b7121bd-49ca-4ca4-8dfa-01803cd27427")
     (property "Reference" "DU_2_13" (id 0) (at 245.491 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4967,7 +5104,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 254.381 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "c38cfde6-43ef-4b2c-afa0-aaf68a900994")
     (property "Reference" "DU_3_13" (id 0) (at 245.491 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4987,7 +5124,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 270.891 162.179 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8818bed6-b21e-4a61-9703-a285412b835f")
     (property "Reference" "DU_0_14" (id 0) (at 262.001 160.909 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5007,7 +5144,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 270.891 185.674 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8b5b892b-fa6b-417e-a074-a6b895f23469")
     (property "Reference" "DU_1_14" (id 0) (at 262.001 184.404 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5027,7 +5164,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 270.891 209.169 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8c5e7abb-1595-41a9-80f7-2d5e06b20745")
     (property "Reference" "DU_2_14" (id 0) (at 262.001 207.899 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5047,7 +5184,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148W") (at 270.891 232.664 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "873e75e5-6ea4-4d4b-b60b-79746769f2ab")
     (property "Reference" "DU_3_14" (id 0) (at 262.001 231.394 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5067,7 +5204,7 @@
   )
 
   (symbol (lib_id "Device:Polyfuse") (at 147.32 39.243 180) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005c2c8a40")
     (property "Reference" "F1" (id 0) (at 145.542 37.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5090,7 +5227,7 @@
   )
 
   (symbol (lib_id "BMEK:PCBProfile") (at 117.3226 25.4254 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "71d0731c-f7be-4bc5-bd38-870adf98f5b9")
     (property "Reference" "V1" (id 0) (at 124.9426 22.8854 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5105,7 +5242,7 @@
   )
 
   (symbol (lib_id "Device:Crystal_GND24_Small") (at 379.857 152.019 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "9af2dd45-3592-47f3-a2c6-4e7fbd6229fa")
     (property "Reference" "Y1" (id 0) (at 381.254 149.098 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5125,7 +5262,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 371.094 207.264 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "823b5964-b23b-4567-bb80-426833f3f3fc")
     (property "Reference" "SW1" (id 0) (at 371.602 199.644 0))
     (property "Value" "TS-1187A-B-A-B" (id 1) (at 368.8842 202.2094 0))
@@ -5141,7 +5278,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 24.511 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "9147c1c8-3a5c-406e-b961-bc57fcfc3afa")
     (property "Reference" "MX_0_0" (id 0) (at 17.526 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5158,7 +5295,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 24.511 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "f41d1138-cf42-4827-a8d6-e5df854a807d")
     (property "Reference" "MX_1_0" (id 0) (at 17.526 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5175,7 +5312,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 24.511 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0c6f6ed5-1ec7-444e-9838-165219b620da")
     (property "Reference" "MX_2_0" (id 0) (at 17.526 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5192,7 +5329,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 24.511 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "9e79c3fd-7931-4235-a472-d1b746fc87d9")
     (property "Reference" "MX_3_0" (id 0) (at 17.526 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5209,7 +5346,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 41.021 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "931bb7b4-dee7-4b3a-9f73-a61900234f92")
     (property "Reference" "MX_0_1" (id 0) (at 34.036 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5226,7 +5363,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 41.021 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "2a5c4134-4b5f-4236-96fd-f9d00b2b4bed")
     (property "Reference" "MX_1_1" (id 0) (at 34.036 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5243,7 +5380,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 41.021 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a5a96723-89f3-4062-8167-233cee18eb15")
     (property "Reference" "MX_2_1" (id 0) (at 34.036 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5260,7 +5397,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 41.021 217.297 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "62a2d1b8-31ae-4076-84b7-1eb31089617b")
     (property "Reference" "MX_3_1b1" (id 0) (at 34.036 215.392 0)
       (effects (font (size 1.524 1.524)))
@@ -5277,7 +5414,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 41.021 224.536 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a8d1294d-43e7-42c0-bbf7-d4838bdae803")
     (property "Reference" "MX_3_1" (id 0) (at 34.036 222.631 0)
       (effects (font (size 1.524 1.524)))
@@ -5294,7 +5431,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 41.021 248.539 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "1e5c47dc-0c93-40c4-8719-9619a4387ce1")
     (property "Reference" "MX_4_1" (id 0) (at 34.036 246.634 0)
       (effects (font (size 1.524 1.524)))
@@ -5311,7 +5448,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 57.531 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "b7fedd0d-8c9d-400d-928a-cadacf3fb40e")
     (property "Reference" "MX_0_2" (id 0) (at 50.546 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5328,7 +5465,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 57.531 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "23c9db75-892e-4612-8052-2bb4a373c818")
     (property "Reference" "MX_1_2" (id 0) (at 50.546 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5345,7 +5482,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 57.531 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "21c7aeee-2e5d-4c0d-83f4-2c5a8fe664da")
     (property "Reference" "MX_2_2" (id 0) (at 50.546 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5362,7 +5499,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 57.531 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "cf40daf5-99f3-4362-8c63-55da38d5dd22")
     (property "Reference" "MX_3_2" (id 0) (at 50.546 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5379,7 +5516,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 57.531 248.539 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "9bf2c74e-7969-4c19-bfbf-26a279fabaed")
     (property "Reference" "MX_4_2" (id 0) (at 50.546 246.634 0)
       (effects (font (size 1.524 1.524)))
@@ -5396,7 +5533,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 74.041 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "6d7b6428-272b-41ed-8e42-afc9b4d01cc9")
     (property "Reference" "MX_0_3" (id 0) (at 67.056 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5413,7 +5550,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 74.041 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a201616c-9b1a-45d2-ae19-5838e19a3842")
     (property "Reference" "MX_1_3" (id 0) (at 67.056 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5430,7 +5567,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 74.041 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "738fc43f-7c53-4d89-9b30-8ff3167f27b1")
     (property "Reference" "MX_2_3" (id 0) (at 67.056 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5447,7 +5584,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 74.041 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "66d18614-2e34-453a-8f76-f74a0cff5de5")
     (property "Reference" "MX_3_3" (id 0) (at 67.056 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5464,7 +5601,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 74.041 248.539 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0851c8ac-9a9b-46c4-91bb-175a9ace3b4e")
     (property "Reference" "MX_4_3" (id 0) (at 67.056 246.634 0)
       (effects (font (size 1.524 1.524)))
@@ -5481,7 +5618,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 90.551 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "aeda67d7-34cd-40b2-a45b-12910afa95ae")
     (property "Reference" "MX_0_4" (id 0) (at 83.566 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5498,7 +5635,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 90.551 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "23e74187-d7ed-49dd-b1e8-75cf2f5a6eeb")
     (property "Reference" "MX_1_4" (id 0) (at 83.566 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5515,7 +5652,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 90.551 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "db20a9aa-74ef-4f86-8057-68cbd1d40274")
     (property "Reference" "MX_2_4" (id 0) (at 83.566 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5532,7 +5669,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 90.551 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "7f110391-99c6-46c7-8501-c50cd4de45f4")
     (property "Reference" "MX_3_4" (id 0) (at 83.566 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5549,7 +5686,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 107.061 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "d97ed82b-1834-40fd-aab8-c0480a666926")
     (property "Reference" "MX_0_5" (id 0) (at 100.076 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5566,7 +5703,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 107.061 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "32904dd1-be8b-4e48-99fd-28c491265749")
     (property "Reference" "MX_1_5" (id 0) (at 100.076 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5583,7 +5720,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 107.061 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "39e0fdb5-9b07-4c2c-9e6b-aa8d1d93d9ba")
     (property "Reference" "MX_2_5" (id 0) (at 100.076 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5600,7 +5737,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 107.061 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "59672050-fdfe-4e0c-8ff3-854ce09c08ea")
     (property "Reference" "MX_3_5" (id 0) (at 100.076 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5617,7 +5754,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 107.061 241.554 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "37954739-be91-47cc-9ed9-32f40c8cf0b3")
     (property "Reference" "MX_4_5b1" (id 0) (at 100.076 239.649 0)
       (effects (font (size 1.524 1.524)))
@@ -5634,7 +5771,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 107.061 248.539 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "95899a47-71d7-44f2-9a75-79709b8da047")
     (property "Reference" "MX_4_5" (id 0) (at 100.076 246.634 0)
       (effects (font (size 1.524 1.524)))
@@ -5651,7 +5788,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 123.571 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "fcd73db6-1d23-4445-a301-e5c380eee971")
     (property "Reference" "MX_0_6" (id 0) (at 116.586 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5668,7 +5805,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 123.571 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "959027d2-63ab-4259-9e26-692890d35785")
     (property "Reference" "MX_1_6" (id 0) (at 116.586 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5685,7 +5822,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 123.571 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "db3f1667-bcb4-45f2-8e33-7a729207f08d")
     (property "Reference" "MX_2_6" (id 0) (at 116.586 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5702,7 +5839,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 123.571 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "10d114ee-74aa-4859-a9fd-f3828f4a18a5")
     (property "Reference" "MX_3_6" (id 0) (at 116.586 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5719,7 +5856,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 156.591 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "b7b08bcc-0d59-4576-8b70-5cc37914bb0a")
     (property "Reference" "MX_0_7" (id 0) (at 149.606 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5736,7 +5873,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 156.591 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "86a306e2-f478-44f7-b60e-ae85bbeb3bd8")
     (property "Reference" "MX_1_7" (id 0) (at 149.606 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5753,7 +5890,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 156.591 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ac377aa8-4956-4428-8c98-a8cc5f7d8575")
     (property "Reference" "MX_2_7" (id 0) (at 149.606 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5770,7 +5907,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 156.591 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a2917177-4c30-40ad-9293-e4d6b3368680")
     (property "Reference" "MX_3_7" (id 0) (at 149.606 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5787,7 +5924,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 173.101 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "cf2d11d9-4ac3-41d3-a7d6-dca99c2b004e")
     (property "Reference" "MX_0_8" (id 0) (at 166.116 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5804,7 +5941,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 173.101 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ad6bc76a-faf5-4ad5-8335-1fe239eaef0e")
     (property "Reference" "MX_1_8" (id 0) (at 166.116 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5821,7 +5958,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 173.101 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0d4d136d-3c6b-422e-8880-051eb84fe82a")
     (property "Reference" "MX_2_8" (id 0) (at 166.116 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5838,7 +5975,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 173.101 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "3f33e6ec-c1c5-414a-b331-278a4310895f")
     (property "Reference" "MX_3_8" (id 0) (at 166.116 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5855,7 +5992,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 173.101 241.554 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "7153c2d6-f73c-456b-bd63-f283be2e6941")
     (property "Reference" "MX_4_8b1" (id 0) (at 166.116 239.649 0)
       (effects (font (size 1.524 1.524)))
@@ -5872,7 +6009,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 173.101 248.539 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "5731656b-fe83-4d51-880a-aed25ae894ea")
     (property "Reference" "MX_4_8" (id 0) (at 166.116 246.634 0)
       (effects (font (size 1.524 1.524)))
@@ -5889,7 +6026,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 189.611 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "833dcf5b-ab67-4e39-bc36-0d9b0399731a")
     (property "Reference" "MX_0_9" (id 0) (at 182.626 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5906,7 +6043,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 189.611 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "15355404-2a2d-4997-a43c-86515cb91adc")
     (property "Reference" "MX_1_9" (id 0) (at 182.626 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5923,7 +6060,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 189.611 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "7f8813b2-e23f-4a5b-b1f6-a99dc5414e82")
     (property "Reference" "MX_2_9" (id 0) (at 182.626 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -5940,7 +6077,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 189.611 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "07e407cc-a65a-4f10-ac48-e3e73777e148")
     (property "Reference" "MX_3_9" (id 0) (at 182.626 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -5957,7 +6094,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 206.121 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "16aabfb5-b81f-4342-9110-189cad77fb50")
     (property "Reference" "MX_0_10" (id 0) (at 199.136 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -5974,7 +6111,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 206.121 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "3fe019c0-e9af-4432-86bc-da9dae603597")
     (property "Reference" "MX_1_10" (id 0) (at 199.136 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -5991,7 +6128,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 206.121 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0dae3e38-fdd3-4e5e-aaca-e487f89b86a4")
     (property "Reference" "MX_2_10" (id 0) (at 199.136 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -6008,7 +6145,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 206.121 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "667417f1-9057-4d34-b279-1bc5ee4544a1")
     (property "Reference" "MX_3_10" (id 0) (at 199.136 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -6025,7 +6162,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 206.121 248.539 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "c710f7b1-0c83-4754-91f0-65fa4d785032")
     (property "Reference" "MX_4_10" (id 0) (at 199.136 246.634 0)
       (effects (font (size 1.524 1.524)))
@@ -6042,7 +6179,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 222.631 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a3f9a169-693a-42c6-94fd-28d6cc3d4e0f")
     (property "Reference" "MX_0_11" (id 0) (at 215.646 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -6059,7 +6196,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 222.631 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "8bb446ac-bf37-4386-a434-8ec430ef4a74")
     (property "Reference" "MX_1_11" (id 0) (at 215.646 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -6076,7 +6213,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 222.631 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "eb1f4de2-36a9-4b8f-8a51-3e5776fd9299")
     (property "Reference" "MX_2_11" (id 0) (at 215.646 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -6093,7 +6230,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 222.631 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "07b8f418-b7ec-4595-8739-4f6ae5af803b")
     (property "Reference" "MX_3_11" (id 0) (at 215.646 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -6110,7 +6247,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 222.631 248.539 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "19c9240d-ab88-4e51-86c8-9632c041817e")
     (property "Reference" "MX_4_11" (id 0) (at 215.646 246.634 0)
       (effects (font (size 1.524 1.524)))
@@ -6127,7 +6264,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 239.141 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ea152138-3c08-404e-a3f5-c7783a5f0e38")
     (property "Reference" "MX_0_12" (id 0) (at 232.156 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -6144,7 +6281,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 239.141 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "18dfc49a-bf85-47af-a643-99b5ead5e116")
     (property "Reference" "MX_1_12" (id 0) (at 232.156 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -6161,7 +6298,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 239.141 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "faba2035-b45e-4bc9-9897-3bc0d3668a59")
     (property "Reference" "MX_2_12" (id 0) (at 232.156 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -6178,7 +6315,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 239.141 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "dee6df18-1d10-48a3-9e68-f596ec1a630d")
     (property "Reference" "MX_3_12" (id 0) (at 232.156 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -6195,7 +6332,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 255.651 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "24f19ef3-c491-4987-a925-eaefcec1e72f")
     (property "Reference" "MX_0_13" (id 0) (at 248.666 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -6212,7 +6349,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 255.651 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "03ed1e60-e224-4d13-9147-4c96501aa3e4")
     (property "Reference" "MX_1_13" (id 0) (at 248.666 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -6229,7 +6366,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 255.651 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "ec142570-dd02-4dce-bff8-471178261dd2")
     (property "Reference" "MX_2_13" (id 0) (at 248.666 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -6246,7 +6383,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 255.651 216.662 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "28132da9-1efd-41d7-b326-9459f304e7cf")
     (property "Reference" "MX_3_13b1" (id 0) (at 248.666 214.757 0)
       (effects (font (size 1.524 1.524)))
@@ -6263,7 +6400,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 255.651 224.663 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "df99d066-879e-4e66-a241-e6e145387c5a")
     (property "Reference" "MX_3_13" (id 0) (at 248.666 222.758 0)
       (effects (font (size 1.524 1.524)))
@@ -6280,7 +6417,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 272.161 147.574 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "d3a70be6-b3d8-49f9-ba5d-efd19177a817")
     (property "Reference" "MX_0_14b1" (id 0) (at 265.176 145.669 0)
       (effects (font (size 1.524 1.524)))
@@ -6297,7 +6434,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 272.161 154.559 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "6cc3fcbd-0137-464b-948e-29963b46d1f3")
     (property "Reference" "MX_0_14" (id 0) (at 265.176 152.654 0)
       (effects (font (size 1.524 1.524)))
@@ -6314,7 +6451,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 272.161 178.054 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "4af072cc-6b5d-4f1a-9966-f330bba9bf55")
     (property "Reference" "MX_1_14" (id 0) (at 265.176 176.149 0)
       (effects (font (size 1.524 1.524)))
@@ -6331,7 +6468,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 272.161 201.549 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "37a71f58-8cf7-4d51-9a19-264a4adbe999")
     (property "Reference" "MX_2_14" (id 0) (at 265.176 199.644 0)
       (effects (font (size 1.524 1.524)))
@@ -6348,7 +6485,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-NoLED") (at 272.161 225.044 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "6c704c4d-4c64-491b-80b4-7bb566ac92b9")
     (property "Reference" "MX_3_14" (id 0) (at 265.176 223.139 0)
       (effects (font (size 1.524 1.524)))
@@ -6365,7 +6502,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-Stabiliser") (at 22.352 242.316 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "a64b3e50-6ecd-4e89-91d7-e9f1e91c200c")
     (property "Reference" "ST_3_1" (id 0) (at 28.702 241.046 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6382,7 +6519,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-Stabiliser") (at 102.616 264.414 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "56fe02af-d970-41f3-9df4-765b63dde69c")
     (property "Reference" "ST_4_5" (id 0) (at 108.966 263.144 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6399,7 +6536,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-Stabiliser") (at 102.616 272.034 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "0bb1b05a-3e52-4400-a7f6-016836c84dbc")
     (property "Reference" "ST_4_5b1" (id 0) (at 108.966 270.764 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6416,7 +6553,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-Stabiliser") (at 168.656 264.414 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "43ee2a0c-11b6-4671-8769-7b4f68dd1cde")
     (property "Reference" "ST_8_5" (id 0) (at 175.006 263.144 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6433,7 +6570,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-Stabiliser") (at 168.656 272.034 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "5b9dd8e2-ad70-4079-a9d6-1d21fefb7b3c")
     (property "Reference" "ST_4_8b1" (id 0) (at 175.006 270.764 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6450,7 +6587,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-Stabiliser") (at 283.337 219.837 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "86d37061-887e-446d-adde-9ea070ae0491")
     (property "Reference" "ST_3_13" (id 0) (at 289.687 218.567 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6467,7 +6604,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-Stabiliser") (at 283.591 155.829 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "63bab202-affc-4606-8a1a-0ad65ac35f67")
     (property "Reference" "ST_0_14b1" (id 0) (at 289.941 154.559 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6484,7 +6621,7 @@
   )
 
   (symbol (lib_id "BMEK:MX-Stabiliser") (at 283.591 202.819 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "7471fe8f-82ae-4bca-94aa-fe3a3998fc0b")
     (property "Reference" "ST_2_14" (id 0) (at 289.941 201.549 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6501,7 +6638,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 68.58 33.02 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "54e3fec7-a871-4c5f-826b-206458e4b7c9")
     (property "Reference" "J1" (id 0) (at 73.66 33.909 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6518,7 +6655,7 @@
   )
 
   (symbol (lib_id "BMEK:USBLC6-2SC6") (at 165.354 41.529 90) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005c2db6c2")
     (property "Reference" "U2" (id 0) (at 159.512 41.529 90))
     (property "Value" "USBLC6-2SC6" (id 1) (at 170.942 41.529 0))
@@ -6537,7 +6674,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 155.956 97.282 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "922bab59-409d-450a-99df-0aa20850ad1d")
     (property "Reference" "D2" (id 0) (at 165.608 96.012 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6557,7 +6694,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 181.356 97.282 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "75b59542-b7c5-43ad-ad92-63b5630bd3d4")
     (property "Reference" "D3" (id 0) (at 191.008 96.012 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6577,7 +6714,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 206.756 97.282 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "d8b75f99-cd1d-4021-bef6-d60001c59396")
     (property "Reference" "D4" (id 0) (at 216.408 96.012 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6597,7 +6734,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 237.49 97.282 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "e137784a-b601-44eb-8ff9-425016f00e4f")
     (property "Reference" "D5" (id 0) (at 247.142 96.012 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6617,7 +6754,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 262.89 97.282 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "2ee61dc9-2f60-4103-a401-dc56808c4d47")
     (property "Reference" "D6" (id 0) (at 272.542 96.012 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6637,7 +6774,7 @@
   )
 
   (symbol (lib_id "LED:WS2812B") (at 288.29 97.282 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "5b7f55d0-b932-4a39-98d8-1d4c5bd27887")
     (property "Reference" "D7" (id 0) (at 297.942 96.012 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6657,7 +6794,7 @@
   )
 
   (symbol (lib_id "Connector:AVR-ISP-6") (at 57.785 92.71 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "1f88e7a5-14b3-4f10-88e9-03086eb3cd5a")
     (property "Reference" "J2" (id 0) (at 48.26 90.17 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -6674,7 +6811,7 @@
   )
 
   (symbol (lib_id "BMEK:HRO-TYPE-C-31-M-12") (at 32.258 45.974 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "042c360b-789c-4235-b348-fd9c26ef13ba")
     (property "Reference" "USB1" (id 0) (at 16.256 45.974 90)
       (effects (font (size 1.524 1.524)))
@@ -6694,7 +6831,7 @@
   )
 
   (symbol (lib_id "MCU_Microchip_ATmega:ATmega32U4-AU") (at 362.204 68.072 0) (unit 1)
-    (in_bom yes)
+    (in_bom yes) (on_board yes)
     (uuid "3bd2bdf6-34f5-4f00-b8e4-7ad99ecac214")
     (property "Reference" "U1" (id 0) (at 362.204 116.332 0))
     (property "Value" "ATmega32U4-AU" (id 1) (at 362.204 118.872 0))

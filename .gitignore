@@ -1,1 +1,7 @@
 .DS_Store
+*.kicad_pcb-bak
+*.kicad_sch-bak
+pcb/kicad/projects/BMEK_Solder/BMEK_Solder-backups
+pcb/kicad/projects/BMEK_Solder/Test
+pcb/kicad/projects/BMEK_Hotswap/BMEK_Hotswap-backups
+pcb/kicad/projects/**/*.tmp

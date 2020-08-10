@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>BMEK_Hotswap.kicad_sch</source>
-    <date>6/13/2020 3:55:55 PM</date>
-    <tool>Eeschema (5.99.0-1918-g94cd0cf3a)</tool>
+    <source>C:\Users\janko\Documents\GitHub\bmek\pcb\kicad\projects\BMEK_Hotswap\BMEK_Hotswap.kicad_sch</source>
+    <date>8/10/2020 3:43:19 PM</date>
+    <tool>Eeschema (5.99.0-2612-g32a7d0025-dirty)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -212,15 +212,15 @@
       <tstamp>78cc0d9f-706e-48ba-93f5-c917f41526ef</tstamp>
     </comp>
     <comp ref="D1">
-      <value>SMF9.0CA</value>
+      <value>SMF6.0A</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C123799</field>
+        <field name="LCSC">C123790</field>
       </fields>
-      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <libsource lib="BMEK" part="D_TVS_UNIDIRECTIONAL" description="Diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>06c72773-4e3a-486e-8c21-76d61c095d4b</tstamp>
+      <tstamp>c5489f30-9b5a-4e80-b4a1-dc07a349a4ba</tstamp>
     </comp>
     <comp ref="D2">
       <value>WS2812B</value>
@@ -948,6 +948,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>873e75e5-6ea4-4d4b-b60b-79746769f2ab</tstamp>
     </comp>
+    <comp ref="DU_4_1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ab27a0c8-b3af-4010-93b0-6bf0efead5e7</tstamp>
+    </comp>
     <comp ref="DU_4_2">
       <value>1N4148W</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
@@ -1468,6 +1479,27 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6c704c4d-4c64-491b-80b4-7bb566ac92b9</tstamp>
     </comp>
+    <comp ref="MX_3_13b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>28132da9-1efd-41d7-b326-9459f304e7cf</tstamp>
+    </comp>
+    <comp ref="MX_3_1b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62a2d1b8-31ae-4076-84b7-1eb31089617b</tstamp>
+    </comp>
+    <comp ref="MX_4_1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1e5c47dc-0c93-40c4-8719-9619a4387ce1</tstamp>
+    </comp>
     <comp ref="MX_4_2">
       <value>MX-NoLED</value>
       <footprint>BMEK:MX-1U-Hotswap</footprint>
@@ -1634,6 +1666,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>a64b3e50-6ecd-4e89-91d7-e9f1e91c200c</tstamp>
     </comp>
+    <comp ref="ST_3_13">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>86d37061-887e-446d-adde-9ea070ae0491</tstamp>
+    </comp>
     <comp ref="ST_4_5">
       <value>MX-Stabiliser</value>
       <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
@@ -1706,7 +1745,7 @@
     </comp>
     <comp ref="V1">
       <value>PCBProfile</value>
-      <footprint>BMEK:PCBProfile_NO_Switches</footprint>
+      <footprint>BMEK:PCBProfile_NO_Switches_copy</footprint>
       <libsource lib="BMEK" part="PCBProfile" description="PCB Profile that fits inside the BMEK Case"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>71d0731c-f7be-4bc5-bd38-870adf98f5b9</tstamp>
@@ -1724,6 +1763,25 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="BMEK" part="D_TVS_UNIDIRECTIONAL">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS_UNIDIRECTIONAL</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="BMEK" part="HRO-TYPE-C-31-M-12">
       <fields>
         <field name="Reference">USB</field>
@@ -1857,25 +1915,6 @@
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="D_TVS">
-      <description>Bidirectional transient-voltage-suppression diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_TVS</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A1" type="passive"/>
-        <pin num="2" name="A2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="Polyfuse">
@@ -2020,7 +2059,7 @@
   </libparts>
   <libraries>
     <library logical="BMEK">
-      <uri>../../libraries/BMEK.kicad_sym</uri>
+      <uri>C:\Users\janko\Documents\GitHub\bmek\pcb\kicad\projects\BMEK_Hotswap/../../libraries/BMEK.kicad_sym</uri>
     </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
@@ -2057,6 +2096,8 @@
       <node ref="MX_1_1" pin="1" pinfunction="COL"/>
       <node ref="MX_2_1" pin="1" pinfunction="COL"/>
       <node ref="MX_3_1" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_1b1" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_1" pin="1" pinfunction="COL"/>
       <node ref="U1" pin="31" pinfunction="PC6"/>
     </net>
     <net code="3" name="COL10">
@@ -2087,6 +2128,7 @@
       <node ref="MX_1_13" pin="1" pinfunction="COL"/>
       <node ref="MX_2_13" pin="1" pinfunction="COL"/>
       <node ref="MX_3_13" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_13b1" pin="1" pinfunction="COL"/>
       <node ref="U1" pin="22" pinfunction="PD5"/>
     </net>
     <net code="7" name="COL14">
@@ -2162,7 +2204,6 @@
     <net code="16" name="D+">
       <node ref="J1" pin="2" pinfunction="Pin_2"/>
       <node ref="R1" pin="2"/>
-      <node ref="U2" pin="1" pinfunction="I/O1"/>
       <node ref="U2" pin="6" pinfunction="I/O1"/>
       <node ref="USB1" pin="6" pinfunction="DP1"/>
       <node ref="USB1" pin="8" pinfunction="DP2"/>
@@ -2171,7 +2212,6 @@
       <node ref="J1" pin="3" pinfunction="Pin_3"/>
       <node ref="R2" pin="2"/>
       <node ref="U2" pin="3" pinfunction="I/O2"/>
-      <node ref="U2" pin="4" pinfunction="I/O2"/>
       <node ref="USB1" pin="5" pinfunction="DN2"/>
       <node ref="USB1" pin="7" pinfunction="DN1"/>
     </net>
@@ -2199,7 +2239,7 @@
       <node ref="C7" pin="2"/>
       <node ref="C8" pin="2"/>
       <node ref="C9" pin="2"/>
-      <node ref="D1" pin="2" pinfunction="A2"/>
+      <node ref="D1" pin="2" pinfunction="A"/>
       <node ref="D2" pin="3" pinfunction="VSS"/>
       <node ref="D3" pin="3" pinfunction="VSS"/>
       <node ref="D4" pin="3" pinfunction="VSS"/>
@@ -2455,6 +2495,7 @@
     <net code="77" name="Net-(DU_3_1-Pad2)">
       <node ref="DU_3_1" pin="2" pinfunction="A"/>
       <node ref="MX_3_1" pin="2" pinfunction="ROW"/>
+      <node ref="MX_3_1b1" pin="2" pinfunction="ROW"/>
     </net>
     <net code="78" name="Net-(DU_3_10-Pad2)">
       <node ref="DU_3_10" pin="2" pinfunction="A"/>
@@ -2471,6 +2512,7 @@
     <net code="81" name="Net-(DU_3_13-Pad2)">
       <node ref="DU_3_13" pin="2" pinfunction="A"/>
       <node ref="MX_3_13" pin="2" pinfunction="ROW"/>
+      <node ref="MX_3_13b1" pin="2" pinfunction="ROW"/>
     </net>
     <net code="82" name="Net-(DU_3_14-Pad2)">
       <node ref="DU_3_14" pin="2" pinfunction="A"/>
@@ -2508,68 +2550,78 @@
       <node ref="DU_3_9" pin="2" pinfunction="A"/>
       <node ref="MX_3_9" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="91" name="Net-(DU_4_10-Pad2)">
+    <net code="91" name="Net-(DU_4_1-Pad2)">
+      <node ref="DU_4_1" pin="2" pinfunction="A"/>
+      <node ref="MX_4_1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="92" name="Net-(DU_4_10-Pad2)">
       <node ref="DU_4_10" pin="2" pinfunction="A"/>
       <node ref="MX_4_10" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="92" name="Net-(DU_4_11-Pad2)">
+    <net code="93" name="Net-(DU_4_11-Pad2)">
       <node ref="DU_4_11" pin="2" pinfunction="A"/>
       <node ref="MX_4_11" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="93" name="Net-(DU_4_2-Pad2)">
+    <net code="94" name="Net-(DU_4_2-Pad2)">
       <node ref="DU_4_2" pin="2" pinfunction="A"/>
       <node ref="MX_4_2" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="94" name="Net-(DU_4_3-Pad2)">
+    <net code="95" name="Net-(DU_4_3-Pad2)">
       <node ref="DU_4_3" pin="2" pinfunction="A"/>
       <node ref="MX_4_3" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="95" name="Net-(DU_4_5-Pad2)">
+    <net code="96" name="Net-(DU_4_5-Pad2)">
       <node ref="DU_4_5" pin="2" pinfunction="A"/>
       <node ref="MX_4_5" pin="2" pinfunction="ROW"/>
       <node ref="MX_4_5b1" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="96" name="Net-(DU_4_8-Pad2)">
+    <net code="97" name="Net-(DU_4_8-Pad2)">
       <node ref="DU_4_8" pin="2" pinfunction="A"/>
       <node ref="MX_4_8" pin="2" pinfunction="ROW"/>
       <node ref="MX_4_8b1" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="97" name="Net-(R1-Pad1)">
+    <net code="98" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1"/>
       <node ref="U1" pin="4" pinfunction="D+"/>
     </net>
-    <net code="98" name="Net-(R2-Pad1)">
+    <net code="99" name="Net-(R2-Pad1)">
       <node ref="R2" pin="1"/>
       <node ref="U1" pin="3" pinfunction="D-"/>
     </net>
-    <net code="99" name="Net-(R3-Pad1)">
+    <net code="100" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1"/>
       <node ref="USB1" pin="4" pinfunction="CC1"/>
     </net>
-    <net code="100" name="Net-(R4-Pad1)">
+    <net code="101" name="Net-(R4-Pad1)">
       <node ref="R4" pin="1"/>
       <node ref="USB1" pin="10" pinfunction="CC2"/>
     </net>
-    <net code="101" name="Net-(R7-Pad1)">
+    <net code="102" name="Net-(R7-Pad1)">
       <node ref="R7" pin="1"/>
       <node ref="U1" pin="33" pinfunction="~HWB~/PE2"/>
     </net>
-    <net code="102" name="Net-(U1-Pad8)">
+    <net code="103" name="Net-(U1-Pad8)">
       <node ref="U1" pin="8" pinfunction="PB0"/>
     </net>
-    <net code="103" name="Net-(USB1-Pad3)">
+    <net code="104" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="I/O1"/>
+    </net>
+    <net code="105" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="I/O2"/>
+    </net>
+    <net code="106" name="Net-(USB1-Pad3)">
       <node ref="USB1" pin="3" pinfunction="SBU2"/>
     </net>
-    <net code="104" name="Net-(USB1-Pad9)">
+    <net code="107" name="Net-(USB1-Pad9)">
       <node ref="USB1" pin="9" pinfunction="SBU1"/>
     </net>
-    <net code="105" name="RESET">
+    <net code="108" name="RESET">
       <node ref="J2" pin="5" pinfunction="~RST"/>
       <node ref="R6" pin="2"/>
       <node ref="SW1" pin="2" pinfunction="2"/>
       <node ref="U1" pin="13" pinfunction="~RESET"/>
     </net>
-    <net code="106" name="ROW0">
+    <net code="109" name="ROW0">
       <node ref="DU_0_0" pin="1" pinfunction="K"/>
       <node ref="DU_0_1" pin="1" pinfunction="K"/>
       <node ref="DU_0_10" pin="1" pinfunction="K"/>
@@ -2587,7 +2639,7 @@
       <node ref="DU_0_9" pin="1" pinfunction="K"/>
       <node ref="U1" pin="40" pinfunction="PF1"/>
     </net>
-    <net code="107" name="ROW1">
+    <net code="110" name="ROW1">
       <node ref="DU_1_0" pin="1" pinfunction="K"/>
       <node ref="DU_1_1" pin="1" pinfunction="K"/>
       <node ref="DU_1_10" pin="1" pinfunction="K"/>
@@ -2605,7 +2657,7 @@
       <node ref="DU_1_9" pin="1" pinfunction="K"/>
       <node ref="U1" pin="28" pinfunction="PB4"/>
     </net>
-    <net code="108" name="ROW2">
+    <net code="111" name="ROW2">
       <node ref="DU_2_0" pin="1" pinfunction="K"/>
       <node ref="DU_2_1" pin="1" pinfunction="K"/>
       <node ref="DU_2_10" pin="1" pinfunction="K"/>
@@ -2623,7 +2675,7 @@
       <node ref="DU_2_9" pin="1" pinfunction="K"/>
       <node ref="U1" pin="29" pinfunction="PB5"/>
     </net>
-    <net code="109" name="ROW3">
+    <net code="112" name="ROW3">
       <node ref="DU_3_0" pin="1" pinfunction="K"/>
       <node ref="DU_3_1" pin="1" pinfunction="K"/>
       <node ref="DU_3_10" pin="1" pinfunction="K"/>
@@ -2641,7 +2693,8 @@
       <node ref="DU_3_9" pin="1" pinfunction="K"/>
       <node ref="U1" pin="26" pinfunction="PD6"/>
     </net>
-    <net code="110" name="ROW4">
+    <net code="113" name="ROW4">
+      <node ref="DU_4_1" pin="1" pinfunction="K"/>
       <node ref="DU_4_10" pin="1" pinfunction="K"/>
       <node ref="DU_4_11" pin="1" pinfunction="K"/>
       <node ref="DU_4_2" pin="1" pinfunction="K"/>
@@ -2650,17 +2703,17 @@
       <node ref="DU_4_8" pin="1" pinfunction="K"/>
       <node ref="U1" pin="27" pinfunction="PD7"/>
     </net>
-    <net code="111" name="SCK">
+    <net code="114" name="SCK">
       <node ref="J2" pin="3" pinfunction="SCK"/>
       <node ref="U1" pin="9" pinfunction="PB1"/>
     </net>
-    <net code="112" name="VBUS">
+    <net code="115" name="VBUS">
       <node ref="F1" pin="2"/>
       <node ref="J1" pin="4" pinfunction="Pin_4"/>
       <node ref="USB1" pin="11" pinfunction="VBUS"/>
       <node ref="USB1" pin="2" pinfunction="VBUS"/>
     </net>
-    <net code="113" name="VCC">
+    <net code="116" name="VCC">
       <node ref="C10" pin="1"/>
       <node ref="C12" pin="2"/>
       <node ref="C13" pin="2"/>
@@ -2673,7 +2726,7 @@
       <node ref="C7" pin="1"/>
       <node ref="C8" pin="1"/>
       <node ref="C9" pin="1"/>
-      <node ref="D1" pin="1" pinfunction="A1"/>
+      <node ref="D1" pin="1" pinfunction="K"/>
       <node ref="D2" pin="1" pinfunction="VDD"/>
       <node ref="D3" pin="1" pinfunction="VDD"/>
       <node ref="D4" pin="1" pinfunction="VDD"/>
@@ -2691,16 +2744,16 @@
       <node ref="U1" pin="7" pinfunction="VBUS"/>
       <node ref="U2" pin="5" pinfunction="VBUS"/>
     </net>
-    <net code="114" name="WSDATA">
+    <net code="117" name="WSDATA">
       <node ref="R8" pin="1"/>
       <node ref="U1" pin="1" pinfunction="PE6"/>
     </net>
-    <net code="115" name="XTAL1">
+    <net code="118" name="XTAL1">
       <node ref="C1" pin="2"/>
       <node ref="U1" pin="17" pinfunction="XTAL1"/>
       <node ref="Y1" pin="1" pinfunction="1"/>
     </net>
-    <net code="116" name="XTAL2">
+    <net code="119" name="XTAL2">
       <node ref="C2" pin="1"/>
       <node ref="U1" pin="16" pinfunction="XTAL2"/>
       <node ref="Y1" pin="3" pinfunction="3"/>

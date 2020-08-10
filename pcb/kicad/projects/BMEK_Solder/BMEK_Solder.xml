@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>BMEK_Solder.kicad_sch</source>
-    <date>6/13/2020 3:55:55 PM</date>
-    <tool>Eeschema (5.99.0-1918-g94cd0cf3a)</tool>
+    <source>C:\Users\janko\Documents\GitHub\bmek\pcb\kicad\projects\BMEK_Solder\BMEK_Solder.kicad_sch</source>
+    <date>8/10/2020 3:41:16 PM</date>
+    <tool>Eeschema (5.99.0-2612-g32a7d0025-dirty)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -212,15 +212,15 @@
       <tstamp>78cc0d9f-706e-48ba-93f5-c917f41526ef</tstamp>
     </comp>
     <comp ref="D1">
-      <value>SMF9.0CA</value>
+      <value>SMF6.0A</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C123799</field>
+        <field name="LCSC">C123790</field>
       </fields>
-      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <libsource lib="BMEK" part="D_TVS_UNIDIRECTIONAL" description="Diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>06c72773-4e3a-486e-8c21-76d61c095d4b</tstamp>
+      <tstamp>c5489f30-9b5a-4e80-b4a1-dc07a349a4ba</tstamp>
     </comp>
     <comp ref="D2">
       <value>WS2812B</value>
@@ -948,6 +948,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>873e75e5-6ea4-4d4b-b60b-79746769f2ab</tstamp>
     </comp>
+    <comp ref="DU_4_1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ab27a0c8-b3af-4010-93b0-6bf0efead5e7</tstamp>
+    </comp>
     <comp ref="DU_4_2">
       <value>1N4148W</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
@@ -1043,483 +1054,504 @@
     </comp>
     <comp ref="MX_0_0">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>9147c1c8-3a5c-406e-b961-bc57fcfc3afa</tstamp>
     </comp>
     <comp ref="MX_0_1">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>931bb7b4-dee7-4b3a-9f73-a61900234f92</tstamp>
     </comp>
     <comp ref="MX_0_2">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>b7fedd0d-8c9d-400d-928a-cadacf3fb40e</tstamp>
     </comp>
     <comp ref="MX_0_3">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6d7b6428-272b-41ed-8e42-afc9b4d01cc9</tstamp>
     </comp>
     <comp ref="MX_0_4">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>aeda67d7-34cd-40b2-a45b-12910afa95ae</tstamp>
     </comp>
     <comp ref="MX_0_5">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>d97ed82b-1834-40fd-aab8-c0480a666926</tstamp>
     </comp>
     <comp ref="MX_0_6">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>fcd73db6-1d23-4445-a301-e5c380eee971</tstamp>
     </comp>
     <comp ref="MX_0_7">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>b7b08bcc-0d59-4576-8b70-5cc37914bb0a</tstamp>
     </comp>
     <comp ref="MX_0_8">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>cf2d11d9-4ac3-41d3-a7d6-dca99c2b004e</tstamp>
     </comp>
     <comp ref="MX_0_9">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>833dcf5b-ab67-4e39-bc36-0d9b0399731a</tstamp>
     </comp>
     <comp ref="MX_0_10">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>16aabfb5-b81f-4342-9110-189cad77fb50</tstamp>
     </comp>
     <comp ref="MX_0_11">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>a3f9a169-693a-42c6-94fd-28d6cc3d4e0f</tstamp>
     </comp>
     <comp ref="MX_0_12">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>ea152138-3c08-404e-a3f5-c7783a5f0e38</tstamp>
     </comp>
     <comp ref="MX_0_13">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>24f19ef3-c491-4987-a925-eaefcec1e72f</tstamp>
     </comp>
     <comp ref="MX_0_14">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6cc3fcbd-0137-464b-948e-29963b46d1f3</tstamp>
     </comp>
     <comp ref="MX_0_14b1">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>d3a70be6-b3d8-49f9-ba5d-efd19177a817</tstamp>
     </comp>
     <comp ref="MX_1_0">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>f41d1138-cf42-4827-a8d6-e5df854a807d</tstamp>
     </comp>
     <comp ref="MX_1_1">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>2a5c4134-4b5f-4236-96fd-f9d00b2b4bed</tstamp>
     </comp>
     <comp ref="MX_1_2">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>23c9db75-892e-4612-8052-2bb4a373c818</tstamp>
     </comp>
     <comp ref="MX_1_3">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>a201616c-9b1a-45d2-ae19-5838e19a3842</tstamp>
     </comp>
     <comp ref="MX_1_4">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>23e74187-d7ed-49dd-b1e8-75cf2f5a6eeb</tstamp>
     </comp>
     <comp ref="MX_1_5">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>32904dd1-be8b-4e48-99fd-28c491265749</tstamp>
     </comp>
     <comp ref="MX_1_6">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>959027d2-63ab-4259-9e26-692890d35785</tstamp>
     </comp>
     <comp ref="MX_1_7">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>86a306e2-f478-44f7-b60e-ae85bbeb3bd8</tstamp>
     </comp>
     <comp ref="MX_1_8">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>ad6bc76a-faf5-4ad5-8335-1fe239eaef0e</tstamp>
     </comp>
     <comp ref="MX_1_9">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>15355404-2a2d-4997-a43c-86515cb91adc</tstamp>
     </comp>
     <comp ref="MX_1_10">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>3fe019c0-e9af-4432-86bc-da9dae603597</tstamp>
     </comp>
     <comp ref="MX_1_11">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>8bb446ac-bf37-4386-a434-8ec430ef4a74</tstamp>
     </comp>
     <comp ref="MX_1_12">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>18dfc49a-bf85-47af-a643-99b5ead5e116</tstamp>
     </comp>
     <comp ref="MX_1_13">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>03ed1e60-e224-4d13-9147-4c96501aa3e4</tstamp>
     </comp>
     <comp ref="MX_1_14">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>4af072cc-6b5d-4f1a-9966-f330bba9bf55</tstamp>
     </comp>
     <comp ref="MX_2_0">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>0c6f6ed5-1ec7-444e-9838-165219b620da</tstamp>
     </comp>
     <comp ref="MX_2_1">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>a5a96723-89f3-4062-8167-233cee18eb15</tstamp>
     </comp>
     <comp ref="MX_2_2">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>21c7aeee-2e5d-4c0d-83f4-2c5a8fe664da</tstamp>
     </comp>
     <comp ref="MX_2_3">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>738fc43f-7c53-4d89-9b30-8ff3167f27b1</tstamp>
     </comp>
     <comp ref="MX_2_4">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>db20a9aa-74ef-4f86-8057-68cbd1d40274</tstamp>
     </comp>
     <comp ref="MX_2_5">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>39e0fdb5-9b07-4c2c-9e6b-aa8d1d93d9ba</tstamp>
     </comp>
     <comp ref="MX_2_6">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>db3f1667-bcb4-45f2-8e33-7a729207f08d</tstamp>
     </comp>
     <comp ref="MX_2_7">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>ac377aa8-4956-4428-8c98-a8cc5f7d8575</tstamp>
     </comp>
     <comp ref="MX_2_8">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>0d4d136d-3c6b-422e-8880-051eb84fe82a</tstamp>
     </comp>
     <comp ref="MX_2_9">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>7f8813b2-e23f-4a5b-b1f6-a99dc5414e82</tstamp>
     </comp>
     <comp ref="MX_2_10">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>0dae3e38-fdd3-4e5e-aaca-e487f89b86a4</tstamp>
     </comp>
     <comp ref="MX_2_11">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>eb1f4de2-36a9-4b8f-8a51-3e5776fd9299</tstamp>
     </comp>
     <comp ref="MX_2_12">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>faba2035-b45e-4bc9-9897-3bc0d3668a59</tstamp>
     </comp>
     <comp ref="MX_2_13">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>ec142570-dd02-4dce-bff8-471178261dd2</tstamp>
     </comp>
     <comp ref="MX_2_14">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>37a71f58-8cf7-4d51-9a19-264a4adbe999</tstamp>
     </comp>
     <comp ref="MX_3_0">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>9e79c3fd-7931-4235-a472-d1b746fc87d9</tstamp>
     </comp>
     <comp ref="MX_3_1">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>a8d1294d-43e7-42c0-bbf7-d4838bdae803</tstamp>
     </comp>
     <comp ref="MX_3_2">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>cf40daf5-99f3-4362-8c63-55da38d5dd22</tstamp>
     </comp>
     <comp ref="MX_3_3">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>66d18614-2e34-453a-8f76-f74a0cff5de5</tstamp>
     </comp>
     <comp ref="MX_3_4">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>7f110391-99c6-46c7-8501-c50cd4de45f4</tstamp>
     </comp>
     <comp ref="MX_3_5">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59672050-fdfe-4e0c-8ff3-854ce09c08ea</tstamp>
     </comp>
     <comp ref="MX_3_6">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>10d114ee-74aa-4859-a9fd-f3828f4a18a5</tstamp>
     </comp>
     <comp ref="MX_3_7">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>a2917177-4c30-40ad-9293-e4d6b3368680</tstamp>
     </comp>
     <comp ref="MX_3_8">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>3f33e6ec-c1c5-414a-b331-278a4310895f</tstamp>
     </comp>
     <comp ref="MX_3_9">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>07e407cc-a65a-4f10-ac48-e3e73777e148</tstamp>
     </comp>
     <comp ref="MX_3_10">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>667417f1-9057-4d34-b279-1bc5ee4544a1</tstamp>
     </comp>
     <comp ref="MX_3_11">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>07b8f418-b7ec-4595-8739-4f6ae5af803b</tstamp>
     </comp>
     <comp ref="MX_3_12">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>dee6df18-1d10-48a3-9e68-f596ec1a630d</tstamp>
     </comp>
     <comp ref="MX_3_13">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>df99d066-879e-4e66-a241-e6e145387c5a</tstamp>
     </comp>
     <comp ref="MX_3_14">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6c704c4d-4c64-491b-80b4-7bb566ac92b9</tstamp>
     </comp>
+    <comp ref="MX_3_13b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>28132da9-1efd-41d7-b326-9459f304e7cf</tstamp>
+    </comp>
+    <comp ref="MX_3_1b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62a2d1b8-31ae-4076-84b7-1eb31089617b</tstamp>
+    </comp>
+    <comp ref="MX_4_1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1e5c47dc-0c93-40c4-8719-9619a4387ce1</tstamp>
+    </comp>
     <comp ref="MX_4_2">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>9bf2c74e-7969-4c19-bfbf-26a279fabaed</tstamp>
     </comp>
     <comp ref="MX_4_3">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>0851c8ac-9a9b-46c4-91bb-175a9ace3b4e</tstamp>
     </comp>
     <comp ref="MX_4_5">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>95899a47-71d7-44f2-9a75-79709b8da047</tstamp>
     </comp>
     <comp ref="MX_4_8">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5731656b-fe83-4d51-880a-aed25ae894ea</tstamp>
     </comp>
     <comp ref="MX_4_10">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>c710f7b1-0c83-4754-91f0-65fa4d785032</tstamp>
     </comp>
     <comp ref="MX_4_11">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>19c9240d-ab88-4e51-86c8-9632c041817e</tstamp>
     </comp>
     <comp ref="MX_4_5b1">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>37954739-be91-47cc-9ed9-32f40c8cf0b3</tstamp>
     </comp>
     <comp ref="MX_4_8b1">
       <value>MX-NoLED</value>
-      <footprint>BMEK:MX-1U-Hotswap</footprint>
+      <footprint>BMEK:MX-1U</footprint>
       <libsource lib="BMEK" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>7153c2d6-f73c-456b-bd63-f283be2e6941</tstamp>
@@ -1634,6 +1666,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>a64b3e50-6ecd-4e89-91d7-e9f1e91c200c</tstamp>
     </comp>
+    <comp ref="ST_3_13">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>86d37061-887e-446d-adde-9ea070ae0491</tstamp>
+    </comp>
     <comp ref="ST_4_5">
       <value>MX-Stabiliser</value>
       <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
@@ -1706,7 +1745,7 @@
     </comp>
     <comp ref="V1">
       <value>PCBProfile</value>
-      <footprint>BMEK:PCBProfile_NO_Switches</footprint>
+      <footprint>BMEK:PCBProfile_NO_Switches_copy</footprint>
       <libsource lib="BMEK" part="PCBProfile" description="PCB Profile that fits inside the BMEK Case"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>71d0731c-f7be-4bc5-bd38-870adf98f5b9</tstamp>
@@ -1724,6 +1763,25 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="BMEK" part="D_TVS_UNIDIRECTIONAL">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS_UNIDIRECTIONAL</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="BMEK" part="HRO-TYPE-C-31-M-12">
       <fields>
         <field name="Reference">USB</field>
@@ -1857,25 +1915,6 @@
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="D_TVS">
-      <description>Bidirectional transient-voltage-suppression diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_TVS</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A1" type="passive"/>
-        <pin num="2" name="A2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="Polyfuse">
@@ -2020,7 +2059,7 @@
   </libparts>
   <libraries>
     <library logical="BMEK">
-      <uri>../../libraries/BMEK.kicad_sym</uri>
+      <uri>C:\Users\janko\Documents\GitHub\bmek\pcb\kicad\projects\BMEK_Solder/../../libraries/BMEK.kicad_sym</uri>
     </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
@@ -2057,6 +2096,8 @@
       <node ref="MX_1_1" pin="1" pinfunction="COL"/>
       <node ref="MX_2_1" pin="1" pinfunction="COL"/>
       <node ref="MX_3_1" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_1b1" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_1" pin="1" pinfunction="COL"/>
       <node ref="U1" pin="31" pinfunction="PC6"/>
     </net>
     <net code="3" name="COL10">
@@ -2087,6 +2128,7 @@
       <node ref="MX_1_13" pin="1" pinfunction="COL"/>
       <node ref="MX_2_13" pin="1" pinfunction="COL"/>
       <node ref="MX_3_13" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_13b1" pin="1" pinfunction="COL"/>
       <node ref="U1" pin="22" pinfunction="PD5"/>
     </net>
     <net code="7" name="COL14">
@@ -2162,7 +2204,6 @@
     <net code="16" name="D+">
       <node ref="J1" pin="2" pinfunction="Pin_2"/>
       <node ref="R1" pin="2"/>
-      <node ref="U2" pin="1" pinfunction="I/O1"/>
       <node ref="U2" pin="6" pinfunction="I/O1"/>
       <node ref="USB1" pin="6" pinfunction="DP1"/>
       <node ref="USB1" pin="8" pinfunction="DP2"/>
@@ -2171,7 +2212,6 @@
       <node ref="J1" pin="3" pinfunction="Pin_3"/>
       <node ref="R2" pin="2"/>
       <node ref="U2" pin="3" pinfunction="I/O2"/>
-      <node ref="U2" pin="4" pinfunction="I/O2"/>
       <node ref="USB1" pin="5" pinfunction="DN2"/>
       <node ref="USB1" pin="7" pinfunction="DN1"/>
     </net>
@@ -2199,7 +2239,7 @@
       <node ref="C7" pin="2"/>
       <node ref="C8" pin="2"/>
       <node ref="C9" pin="2"/>
-      <node ref="D1" pin="2" pinfunction="A2"/>
+      <node ref="D1" pin="2" pinfunction="A"/>
       <node ref="D2" pin="3" pinfunction="VSS"/>
       <node ref="D3" pin="3" pinfunction="VSS"/>
       <node ref="D4" pin="3" pinfunction="VSS"/>
@@ -2455,6 +2495,7 @@
     <net code="77" name="Net-(DU_3_1-Pad2)">
       <node ref="DU_3_1" pin="2" pinfunction="A"/>
       <node ref="MX_3_1" pin="2" pinfunction="ROW"/>
+      <node ref="MX_3_1b1" pin="2" pinfunction="ROW"/>
     </net>
     <net code="78" name="Net-(DU_3_10-Pad2)">
       <node ref="DU_3_10" pin="2" pinfunction="A"/>
@@ -2471,6 +2512,7 @@
     <net code="81" name="Net-(DU_3_13-Pad2)">
       <node ref="DU_3_13" pin="2" pinfunction="A"/>
       <node ref="MX_3_13" pin="2" pinfunction="ROW"/>
+      <node ref="MX_3_13b1" pin="2" pinfunction="ROW"/>
     </net>
     <net code="82" name="Net-(DU_3_14-Pad2)">
       <node ref="DU_3_14" pin="2" pinfunction="A"/>
@@ -2508,68 +2550,78 @@
       <node ref="DU_3_9" pin="2" pinfunction="A"/>
       <node ref="MX_3_9" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="91" name="Net-(DU_4_10-Pad2)">
+    <net code="91" name="Net-(DU_4_1-Pad2)">
+      <node ref="DU_4_1" pin="2" pinfunction="A"/>
+      <node ref="MX_4_1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="92" name="Net-(DU_4_10-Pad2)">
       <node ref="DU_4_10" pin="2" pinfunction="A"/>
       <node ref="MX_4_10" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="92" name="Net-(DU_4_11-Pad2)">
+    <net code="93" name="Net-(DU_4_11-Pad2)">
       <node ref="DU_4_11" pin="2" pinfunction="A"/>
       <node ref="MX_4_11" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="93" name="Net-(DU_4_2-Pad2)">
+    <net code="94" name="Net-(DU_4_2-Pad2)">
       <node ref="DU_4_2" pin="2" pinfunction="A"/>
       <node ref="MX_4_2" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="94" name="Net-(DU_4_3-Pad2)">
+    <net code="95" name="Net-(DU_4_3-Pad2)">
       <node ref="DU_4_3" pin="2" pinfunction="A"/>
       <node ref="MX_4_3" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="95" name="Net-(DU_4_5-Pad2)">
+    <net code="96" name="Net-(DU_4_5-Pad2)">
       <node ref="DU_4_5" pin="2" pinfunction="A"/>
       <node ref="MX_4_5" pin="2" pinfunction="ROW"/>
       <node ref="MX_4_5b1" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="96" name="Net-(DU_4_8-Pad2)">
+    <net code="97" name="Net-(DU_4_8-Pad2)">
       <node ref="DU_4_8" pin="2" pinfunction="A"/>
       <node ref="MX_4_8" pin="2" pinfunction="ROW"/>
       <node ref="MX_4_8b1" pin="2" pinfunction="ROW"/>
     </net>
-    <net code="97" name="Net-(R1-Pad1)">
+    <net code="98" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1"/>
       <node ref="U1" pin="4" pinfunction="D+"/>
     </net>
-    <net code="98" name="Net-(R2-Pad1)">
+    <net code="99" name="Net-(R2-Pad1)">
       <node ref="R2" pin="1"/>
       <node ref="U1" pin="3" pinfunction="D-"/>
     </net>
-    <net code="99" name="Net-(R3-Pad1)">
+    <net code="100" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1"/>
       <node ref="USB1" pin="4" pinfunction="CC1"/>
     </net>
-    <net code="100" name="Net-(R4-Pad1)">
+    <net code="101" name="Net-(R4-Pad1)">
       <node ref="R4" pin="1"/>
       <node ref="USB1" pin="10" pinfunction="CC2"/>
     </net>
-    <net code="101" name="Net-(R7-Pad1)">
+    <net code="102" name="Net-(R7-Pad1)">
       <node ref="R7" pin="1"/>
       <node ref="U1" pin="33" pinfunction="~HWB~/PE2"/>
     </net>
-    <net code="102" name="Net-(U1-Pad8)">
+    <net code="103" name="Net-(U1-Pad8)">
       <node ref="U1" pin="8" pinfunction="PB0"/>
     </net>
-    <net code="103" name="Net-(USB1-Pad3)">
+    <net code="104" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="I/O1"/>
+    </net>
+    <net code="105" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="I/O2"/>
+    </net>
+    <net code="106" name="Net-(USB1-Pad3)">
       <node ref="USB1" pin="3" pinfunction="SBU2"/>
     </net>
-    <net code="104" name="Net-(USB1-Pad9)">
+    <net code="107" name="Net-(USB1-Pad9)">
       <node ref="USB1" pin="9" pinfunction="SBU1"/>
     </net>
-    <net code="105" name="RESET">
+    <net code="108" name="RESET">
       <node ref="J2" pin="5" pinfunction="~RST"/>
       <node ref="R6" pin="2"/>
       <node ref="SW1" pin="2" pinfunction="2"/>
       <node ref="U1" pin="13" pinfunction="~RESET"/>
     </net>
-    <net code="106" name="ROW0">
+    <net code="109" name="ROW0">
       <node ref="DU_0_0" pin="1" pinfunction="K"/>
       <node ref="DU_0_1" pin="1" pinfunction="K"/>
       <node ref="DU_0_10" pin="1" pinfunction="K"/>
@@ -2587,7 +2639,7 @@
       <node ref="DU_0_9" pin="1" pinfunction="K"/>
       <node ref="U1" pin="40" pinfunction="PF1"/>
     </net>
-    <net code="107" name="ROW1">
+    <net code="110" name="ROW1">
       <node ref="DU_1_0" pin="1" pinfunction="K"/>
       <node ref="DU_1_1" pin="1" pinfunction="K"/>
       <node ref="DU_1_10" pin="1" pinfunction="K"/>
@@ -2605,7 +2657,7 @@
       <node ref="DU_1_9" pin="1" pinfunction="K"/>
       <node ref="U1" pin="28" pinfunction="PB4"/>
     </net>
-    <net code="108" name="ROW2">
+    <net code="111" name="ROW2">
       <node ref="DU_2_0" pin="1" pinfunction="K"/>
       <node ref="DU_2_1" pin="1" pinfunction="K"/>
       <node ref="DU_2_10" pin="1" pinfunction="K"/>
@@ -2623,7 +2675,7 @@
       <node ref="DU_2_9" pin="1" pinfunction="K"/>
       <node ref="U1" pin="29" pinfunction="PB5"/>
     </net>
-    <net code="109" name="ROW3">
+    <net code="112" name="ROW3">
       <node ref="DU_3_0" pin="1" pinfunction="K"/>
       <node ref="DU_3_1" pin="1" pinfunction="K"/>
       <node ref="DU_3_10" pin="1" pinfunction="K"/>
@@ -2641,7 +2693,8 @@
       <node ref="DU_3_9" pin="1" pinfunction="K"/>
       <node ref="U1" pin="26" pinfunction="PD6"/>
     </net>
-    <net code="110" name="ROW4">
+    <net code="113" name="ROW4">
+      <node ref="DU_4_1" pin="1" pinfunction="K"/>
       <node ref="DU_4_10" pin="1" pinfunction="K"/>
       <node ref="DU_4_11" pin="1" pinfunction="K"/>
       <node ref="DU_4_2" pin="1" pinfunction="K"/>
@@ -2650,17 +2703,17 @@
       <node ref="DU_4_8" pin="1" pinfunction="K"/>
       <node ref="U1" pin="27" pinfunction="PD7"/>
     </net>
-    <net code="111" name="SCK">
+    <net code="114" name="SCK">
       <node ref="J2" pin="3" pinfunction="SCK"/>
       <node ref="U1" pin="9" pinfunction="PB1"/>
     </net>
-    <net code="112" name="VBUS">
+    <net code="115" name="VBUS">
       <node ref="F1" pin="2"/>
       <node ref="J1" pin="4" pinfunction="Pin_4"/>
       <node ref="USB1" pin="11" pinfunction="VBUS"/>
       <node ref="USB1" pin="2" pinfunction="VBUS"/>
     </net>
-    <net code="113" name="VCC">
+    <net code="116" name="VCC">
       <node ref="C10" pin="1"/>
       <node ref="C12" pin="2"/>
       <node ref="C13" pin="2"/>
@@ -2673,7 +2726,7 @@
       <node ref="C7" pin="1"/>
       <node ref="C8" pin="1"/>
       <node ref="C9" pin="1"/>
-      <node ref="D1" pin="1" pinfunction="A1"/>
+      <node ref="D1" pin="1" pinfunction="K"/>
       <node ref="D2" pin="1" pinfunction="VDD"/>
       <node ref="D3" pin="1" pinfunction="VDD"/>
       <node ref="D4" pin="1" pinfunction="VDD"/>
@@ -2691,16 +2744,16 @@
       <node ref="U1" pin="7" pinfunction="VBUS"/>
       <node ref="U2" pin="5" pinfunction="VBUS"/>
     </net>
-    <net code="114" name="WSDATA">
+    <net code="117" name="WSDATA">
       <node ref="R8" pin="1"/>
       <node ref="U1" pin="1" pinfunction="PE6"/>
     </net>
-    <net code="115" name="XTAL1">
+    <net code="118" name="XTAL1">
       <node ref="C1" pin="2"/>
       <node ref="U1" pin="17" pinfunction="XTAL1"/>
       <node ref="Y1" pin="1" pinfunction="1"/>
     </net>
-    <net code="116" name="XTAL2">
+    <net code="119" name="XTAL2">
       <node ref="C2" pin="1"/>
       <node ref="U1" pin="16" pinfunction="XTAL2"/>
       <node ref="Y1" pin="3" pinfunction="3"/>
