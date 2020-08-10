@@ -1,4 +1,4 @@
-# Ordering BMEK PCB at JLCPCB
+# Ordering v2 at JLCPCB
 
 - **Use at your own risk.**
 - This is outdated and doesn't fit the new case well due to the missing access cutouts for the plate screws. Consider making V3 instead!
