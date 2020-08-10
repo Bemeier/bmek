@@ -1423,10 +1423,10 @@
   (junction (at 379.857 164.719) (diameter 1.016) (color 0 0 0 0))
   (junction (at 384.937 152.019) (diameter 1.016) (color 0 0 0 0))
 
+  (no_connect (at 34.798 37.084))
   (no_connect (at 34.798 52.324))
   (no_connect (at 377.444 29.972))
   (no_connect (at 162.814 51.689))
-  (no_connect (at 34.798 37.084))
   (no_connect (at 167.894 31.369))
 
   (wire (pts (xy 23.241 165.989) (xy 39.751 165.989))
@@ -5233,7 +5233,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PCBProfile" (id 1) (at 125.9586 23.1394 0))
-    (property "Footprint" "BMEK:PCBProfile_NO_Switches_copy" (id 2) (at 117.3226 27.9654 0)
+    (property "Footprint" "BMEK:PCBProfile_NO_Switches" (id 2) (at 117.3226 27.9654 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 117.3226 25.4254 0)
