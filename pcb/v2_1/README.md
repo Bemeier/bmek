@@ -1,6 +1,6 @@
 # BMEK PCB v2.1
 
-Use always at your own risk.
+**Use at your own risk.**
 
 - Contains some updates for the [separate plate case](https://github.com/Bemeier/bmek/blob/master/cases/highprofile_plate/)
 - The PCB has been made and works. But it hasn't been tested with assembly yet, so please be double-critical when reviewing the Pick & Place positioning & components, in case you want to order this one assembled
