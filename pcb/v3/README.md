@@ -1,9 +1,9 @@
 # V3 of the PCB
 
 This is the PCB as it will be shipped in the group buy. It comes in both a solder and hotswap version. 
-I've ordered a test batch from JLCPCB with the files from this commit: https://github.com/Bemeier/bmek/commit/85931f795956d60f2ae7042b2607ad3a0f845139 
-I'll update the readme here to confirm that it works as expected.
-Either way, *order these files at your own risk*. And most importantly, always critically review the parts placement (oftentimes the previewer on the JLCPCB website is broken, so ask for a review of the parts placement per mail!)
+I've ordered a test batch from JLCPCB with these files and I'll update the readme here to confirm that it works as expected.
+Either way, *order these files at your own risk*.
+And most importantly, always critically review the parts placement (oftentimes the previewer on the JLCPCB website is broken, so ask for a review of the parts placement per mail!)
 
 ## Improvements over V2/2.1
 
@@ -26,7 +26,7 @@ For this version, I've also released the Kicad projects (see ../kicad/projects).
 ![Solder Version Image](https://i.imgur.com/DP67VNZ.png)
 
 ## Crosshatch Back:
-The .zip's exported here have the crosshatch pattern on the back copper layer removed (shown in the images above), as it increased the filesize significantly, which made the JLCPCB gerber viewer choke completely.
-If you want to order it with the crosshatch pattern (it's purely cosmetic, see image below), you can open the Kicad project and generate the gerbers yourself.
+There are two versions exported, one with the crosshatched pattern on the back (shown below) and one without (shown above).
+The crosshatch pattern increases the gerber filesize significantly, which made the JLCPCB gerber viewer choke completely to the point that I couldn't go through the order process properly.
 
 ![Crosshatch Back Image](https://i.imgur.com/kUrYCUo.png)
