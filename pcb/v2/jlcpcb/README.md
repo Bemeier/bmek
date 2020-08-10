@@ -1,8 +1,8 @@
 # Ordering BMEK PCB at JLCPCB
 
-**Use at your own risk.**
-
-Go to [jlcpcb.com](https://jlcpcb.com) and get a quotation. Use the .zip for uploading gerber files. For assembly, use BOM_LED.csv and CPL_LED.csv.
+- **Use at your own risk.**
+- This is outdated and doesn't fit the new case well due to the missing access cutouts for the plate screws. Consider making V3 instead!
+- But if you must, go to [jlcpcb.com](https://jlcpcb.com) and get a quotation. Use the .zip for uploading gerber files. For assembly, use BOM_LED.csv and CPL_LED.csv.
 
 
 ![PCB](https://i.imgur.com/Gihmnn3.png)
