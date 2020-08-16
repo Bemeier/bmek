@@ -1,5 +1,5 @@
 # Hardware for BMEK - Bemeier Ergonomic Keyboard
-![Top mount case render](https://i.imgur.com/hYentDr.png)
+![First Alu Prototype](https://i.imgur.com/g2n1SY1.jpg)
 
 BMEK is an ergonomic keyboard in the spirit of [Lyn's EM7](https://geekhack.org/index.php?topic=83328.0) and [TGR Alice](https://geekhack.org/index.php?topic=95009.0).
 Notable differences are the [HHKB-like](https://www.hhkeyboard.com/) layout and the and the more symmetric looks due to the space bars and left key cluster arrangement.
@@ -67,7 +67,8 @@ Version 3 of the PCB comes in either hotswap or solder version, not in a combine
 A top-mounted version of the original case is being designed under [cases/highprofile_plate](https://github.com/Bemeier/bmek/tree/master/cases/highprofile_plate). This is the case I would recommend building - especially if you want to 3D print parts, I'd suggest to print top and bottom case, but get the plate cut/machined from metal (as this is the part where the tolerances are most important.
 
 ![Top Mounted 1](https://i.imgur.com/kyHzoL8.png)
-![Top Mounted 2](https://i.imgur.com/V3CMgFS.png)
+![Top Mounted 2](https://i.imgur.com/Dd6fttt.jpg)
+![Top Mounted 3](https://i.imgur.com/lirDxdv.jpg)
 
 ### Lasercut Case
 
