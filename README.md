@@ -58,13 +58,13 @@ Version 3 of the PCB comes in either hotswap or solder version, not in a combine
 
 
 ### Integrated Case
-3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate or aluminium) are under [cases/highprofile](https://github.com/Bemeier/bmek/tree/master/cases/highprofile).
+3D models for a 2-piece high profile case with integrated plate mounts (intended for CNC-machining from polycarbonate or aluminium) are under [cases/old_integrated_plate_case](https://github.com/Bemeier/bmek/tree/master/cases/old_integrated_plate_case).
 
 ![BMEK](https://i.imgur.com/3rHByZJ.jpg)
 ![Case Assembled](https://i.imgur.com/5wR5hRO.jpg)
 
 ### Top-mounted plate Case
-A top-mounted version of the original case is being designed under [cases/highprofile_plate](https://github.com/Bemeier/bmek/tree/master/cases/highprofile_plate). This is the case I would recommend building - especially if you want to 3D print parts, I'd suggest to print top and bottom case, but get the plate cut/machined from metal (as this is the part where the tolerances are most important.
+A top-mounted version of the original case is being designed under [cases/top_mount](https://github.com/Bemeier/bmek/tree/master/cases/top_mount). This is the case I would recommend building - especially if you want to 3D print parts, I'd suggest to print top and bottom case, but get the plate cut/machined from metal (as this is the part where the tolerances are most important.
 
 ![Top Mounted 1](https://i.imgur.com/kyHzoL8.png)
 ![Top Mounted 2](https://i.imgur.com/Dd6fttt.jpg)
