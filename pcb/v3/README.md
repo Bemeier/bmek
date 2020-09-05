@@ -30,7 +30,6 @@ There are two versions exported, one with the crosshatched pattern on the back (
 The crosshatch pattern increases the gerber filesize significantly, which made the JLCPCB gerber viewer choke completely to the point that I couldn't go through the order process properly.
 
 ![Crosshatch Back Image](https://i.imgur.com/kUrYCUo.png)
-https://github.com/Bemeier/bmek.git
 
 ## Ordering on JLCPCB
 These are the basic steps for ordering V3 PCBs from JLCPCB. Please note a couple important things: 
