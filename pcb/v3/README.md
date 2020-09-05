@@ -39,7 +39,7 @@ These are the basic steps for ordering V3 PCBs from JLCPCB. Please note a couple
 - This is DIY. You will have to solder _at least_ the USB C port. You will also have to source this (and other optional parts) yourself.
 - Read through, and understand, these steps AND everything detailed on this page before continuing. Make sure you understand **and** accept all risks you are taking. This guide is to help those with questions who have never used JLPCB before. It's relevancy may change as files change OR jlcpcb's services or site change.
 
-1. Go to [JLCPCB](www.jlcpcb.com).
+1. Go to [JLCPCB](http://www.jlcpcb.com).
 2. Find the '2  Layers' graphic and click 'Quote Now'.
 3. On the new page, click the 'Add your gerber file' button.
 4. Find an select your desired file within `pcb/v3` folder (don't unzip). It will take a while to upload the file. Go grab a snack and give it some time. Good things come to those who wait.
