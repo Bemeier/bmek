@@ -56,3 +56,15 @@ These are the basic steps for ordering V3 PCBs from JLCPCB. Please note a couple
 9.  It should auto-find all necessary parts. You will see one item `HRO-TYPE-C-31-M-12` that says 'No part selected'. This is the USB C port which has to be acquired and installed manually. Click 'Next'.
 10. If everything looks good (make sure you entered dimensions from step 5), you should be ready to 'SAVE TO CART' and continue to check out. If you didn't create an account earlier, you're going to be asked to do so before being able to checkout. 
 11. Don't forget to source the USB C port you will need. You're going to need enough to cover all the PCBs you're ordering (or as many as you want to build). `HRO-TYPE-C-31-M-12` should be easily found online from multiple vendors.
+
+### Checking DFM
+Since the preview for the parts placement often fails on the JLCPCB website, it is good to check it after the JLC engineers have processed it.
+To do this, click on the "DFM Analysis" on the order page, it will show something like this:
+
+![DFM Analysis Screenshot](https://i.imgur.com/NEGX5gh.png)
+
+Make sure that the orientation of the parts (as denoted by the red dots and the +/-) looks like this (both for hotswap and solder, click the image for a high resolution image):
+
+[![Correct component placement](https://i.imgur.com/kTeKakSl.png)](https://i.imgur.com/kTeKakS.png)
+
+Again, the DFM Analysis will only be made available after the engineers have processed it (can take up to 24h). The actual pick and place process only starts after the PCB is manufacuterd, so you have some time to check this for errors. I usually just send them a mail to hold on the Pick'n'Place until I got a chance to verify the DFM.
