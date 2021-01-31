@@ -4,6 +4,14 @@
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
+    "net_color_mode": 1,
+    "opacity": {
+      "pads": 1.0,
+      "tracks": 1.0,
+      "vias": 1.0,
+      "zones": 0.6
+    },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -54,5 +62,8 @@
   "meta": {
     "filename": "BMEK_Solder.kicad_prl",
     "version": 1
+  },
+  "project": {
+    "files": []
   }
 }

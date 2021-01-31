@@ -1424,10 +1424,10 @@
   (junction (at 384.937 152.019) (diameter 1.016) (color 0 0 0 0))
 
   (no_connect (at 34.798 37.084))
-  (no_connect (at 377.444 29.972))
-  (no_connect (at 167.894 31.369))
   (no_connect (at 34.798 52.324))
+  (no_connect (at 167.894 31.369))
   (no_connect (at 162.814 51.689))
+  (no_connect (at 377.444 29.972))
 
   (wire (pts (xy 23.241 165.989) (xy 39.751 165.989))
     (stroke (width 0) (type solid) (color 0 0 0 0))
