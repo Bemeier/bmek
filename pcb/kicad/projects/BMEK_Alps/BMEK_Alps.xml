@@ -1,0 +1,2762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\janko\Documents\GitHub\bmek\pcb\kicad\projects\BMEK_Solder\BMEK_Solder.kicad_sch</source>
+    <date>8/10/2020 3:41:16 PM</date>
+    <tool>Eeschema (5.99.0-2612-g32a7d0025-dirty)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1</rev>
+        <date/>
+        <source>BMEK_Solder.kicad_sch</source>
+        <comment number="1" value="Design for JLCPCB 1-2 Layer Service"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1653</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a4cc7956-9de3-4c1a-8671-aa7d6ee417eb</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1653</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>bc034622-386d-4659-a006-770c853b6335</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ef8070c9-86c4-4b57-bf11-64be2ec4bcaf</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>df540604-bcc9-4c65-9d18-f811847e3ab1</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>319716a1-def9-4f63-8d40-c9c570fa4aa1</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>71123820-8bc6-47ee-98cc-534ea89fe485</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>94ce9b17-2cc9-4f0b-8b03-46290906fa6f</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b65e6771-233a-47de-a151-e1f5267073ac</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a535ea17-aca7-458c-bd40-e7fbffaf7e65</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4u7F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>826ba1e0-9a68-495d-8b19-c01f0f2ccce4</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4n7F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C159797</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1841523e-6141-4a8f-9720-fd1941ed657e</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>40cca924-ae7c-4864-bfb8-2f5f6eef5ec7</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5f66f020-ddf3-41ff-8829-af40920ac655</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>79363d43-3c59-497f-bc12-6564baa68243</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>35fc2677-0fb6-452c-a678-24e79248f0d2</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61eae6a8-f607-4f6d-b31f-cbe833965855</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0u1F</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>78cc0d9f-706e-48ba-93f5-c917f41526ef</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SMF6.0A</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C123790</field>
+      </fields>
+      <libsource lib="BMEK" part="D_TVS_UNIDIRECTIONAL" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>c5489f30-9b5a-4e80-b4a1-dc07a349a4ba</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B</value>
+      <footprint>BMEK:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>922bab59-409d-450a-99df-0aa20850ad1d</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>BMEK:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>75b59542-b7c5-43ad-ad92-63b5630bd3d4</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B</value>
+      <footprint>BMEK:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d8b75f99-cd1d-4021-bef6-d60001c59396</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B</value>
+      <footprint>BMEK:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e137784a-b601-44eb-8ff9-425016f00e4f</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B</value>
+      <footprint>BMEK:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2ee61dc9-2f60-4103-a401-dc56808c4d47</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>WS2812B</value>
+      <footprint>BMEK:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5b7f55d0-b932-4a39-98d8-1d4c5bd27887</tstamp>
+    </comp>
+    <comp ref="DU_0_0">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0990fea0-ab00-42f7-890d-16bfee0a99d2</tstamp>
+    </comp>
+    <comp ref="DU_0_1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>efa4c34d-fd42-427d-98ba-7e57e447de1e</tstamp>
+    </comp>
+    <comp ref="DU_0_2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3f0ed4a8-5cf2-4e51-8c23-1151fc8b13af</tstamp>
+    </comp>
+    <comp ref="DU_0_3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8fa03052-8a1d-4bd6-9b00-3ca7107c629f</tstamp>
+    </comp>
+    <comp ref="DU_0_4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>38de0f15-6ef2-4807-82e7-5af845f72167</tstamp>
+    </comp>
+    <comp ref="DU_0_5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>10f7656b-6f28-4235-89b7-c9d4bc886292</tstamp>
+    </comp>
+    <comp ref="DU_0_6">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a700031f-289b-4217-a6a5-d46d615b4e2d</tstamp>
+    </comp>
+    <comp ref="DU_0_7">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6eb1244b-0ff8-430c-abd0-cac577191895</tstamp>
+    </comp>
+    <comp ref="DU_0_8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>306c2f40-e297-4442-b940-dd787b05cd53</tstamp>
+    </comp>
+    <comp ref="DU_0_9">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0f670d17-ee70-4395-bb5a-84308485daed</tstamp>
+    </comp>
+    <comp ref="DU_0_10">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>981a1095-e15b-4104-a162-9bad9a897d09</tstamp>
+    </comp>
+    <comp ref="DU_0_11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2e560a21-8866-4738-a06e-c64f6e42169d</tstamp>
+    </comp>
+    <comp ref="DU_0_12">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1f147054-d1a3-4d4b-90bd-a8acedac4c29</tstamp>
+    </comp>
+    <comp ref="DU_0_13">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>96e16524-2437-422c-8fc9-89548e3dea28</tstamp>
+    </comp>
+    <comp ref="DU_0_14">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8818bed6-b21e-4a61-9703-a285412b835f</tstamp>
+    </comp>
+    <comp ref="DU_1_0">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>cd9a01f0-15c4-4857-9fde-66bcd62a5c78</tstamp>
+    </comp>
+    <comp ref="DU_1_1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9654790f-f022-424f-b20e-38a0d3886615</tstamp>
+    </comp>
+    <comp ref="DU_1_2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>778cb4ed-e751-49e9-a25c-f9fddb6b8520</tstamp>
+    </comp>
+    <comp ref="DU_1_3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>298e04d0-d9b3-4e34-b4e4-27d225f95b05</tstamp>
+    </comp>
+    <comp ref="DU_1_4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2ed5c385-8652-46d1-87ab-af84527a7176</tstamp>
+    </comp>
+    <comp ref="DU_1_5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b7aff52a-47ea-4e55-9ce6-6a2da87be288</tstamp>
+    </comp>
+    <comp ref="DU_1_6">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>dfa93674-dc89-43f0-be0a-34c0652dc45f</tstamp>
+    </comp>
+    <comp ref="DU_1_7">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>fbf5c7c1-f6e8-4b56-8e03-380c320a5f27</tstamp>
+    </comp>
+    <comp ref="DU_1_8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5c876a8d-0dbd-4671-80d1-89351ee28190</tstamp>
+    </comp>
+    <comp ref="DU_1_9">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ba253e53-5ba9-4742-9d36-4ff9cb3c2573</tstamp>
+    </comp>
+    <comp ref="DU_1_10">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>852ac116-73c6-4184-9690-f6a4c4c8d06f</tstamp>
+    </comp>
+    <comp ref="DU_1_11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9e4f0ced-4d28-4cf9-ae3b-14183bd4151f</tstamp>
+    </comp>
+    <comp ref="DU_1_12">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>24923ed2-d968-46ca-9434-ec24e56befea</tstamp>
+    </comp>
+    <comp ref="DU_1_13">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>92eed607-41aa-4293-bdc5-78f4033ce89e</tstamp>
+    </comp>
+    <comp ref="DU_1_14">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8b5b892b-fa6b-417e-a074-a6b895f23469</tstamp>
+    </comp>
+    <comp ref="DU_2_0">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d2dccd38-ca60-4c83-902f-5a34116b94e9</tstamp>
+    </comp>
+    <comp ref="DU_2_1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>759ec118-6c70-4735-8152-ea7338e965ee</tstamp>
+    </comp>
+    <comp ref="DU_2_2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4f6daea1-24c0-4985-9324-f7b233033332</tstamp>
+    </comp>
+    <comp ref="DU_2_3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>10392f4a-143b-48c8-a27f-a8a184b3e6e9</tstamp>
+    </comp>
+    <comp ref="DU_2_4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3383de47-70e9-43b9-88eb-af23ee57d7da</tstamp>
+    </comp>
+    <comp ref="DU_2_5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>19a54be2-216a-485f-9b71-8afca89c3ab1</tstamp>
+    </comp>
+    <comp ref="DU_2_6">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>28abcce9-7738-40e8-8b9a-f6b87a6fbc85</tstamp>
+    </comp>
+    <comp ref="DU_2_7">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7a0a09c5-628d-4851-a2b5-2976eef45942</tstamp>
+    </comp>
+    <comp ref="DU_2_8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>212956fe-f9c2-4f1a-bd0c-c0bfe0965b9f</tstamp>
+    </comp>
+    <comp ref="DU_2_9">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7e5d4ef4-fdd0-44a4-8eef-4b0f6c7dc788</tstamp>
+    </comp>
+    <comp ref="DU_2_10">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>04213b28-4647-48a4-9b37-6759dbb73398</tstamp>
+    </comp>
+    <comp ref="DU_2_11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a8206ce4-0fab-46fc-af9b-18610a2a82e4</tstamp>
+    </comp>
+    <comp ref="DU_2_12">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>20b3163a-782b-49ac-925e-1e89df65beba</tstamp>
+    </comp>
+    <comp ref="DU_2_13">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4b7121bd-49ca-4ca4-8dfa-01803cd27427</tstamp>
+    </comp>
+    <comp ref="DU_2_14">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8c5e7abb-1595-41a9-80f7-2d5e06b20745</tstamp>
+    </comp>
+    <comp ref="DU_3_0">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b953e6d1-a505-4255-a58f-288b5dad83d5</tstamp>
+    </comp>
+    <comp ref="DU_3_1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0d1c904a-3f7d-4c07-8706-593d56dc758a</tstamp>
+    </comp>
+    <comp ref="DU_3_2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>abeaed8f-786c-4e57-8403-abc1a8ecd51a</tstamp>
+    </comp>
+    <comp ref="DU_3_3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ee65423-6965-4009-9019-65bde0759f9e</tstamp>
+    </comp>
+    <comp ref="DU_3_4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0145a4b5-2b5a-4020-b5df-b2314d7ae051</tstamp>
+    </comp>
+    <comp ref="DU_3_5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e57022b5-9bf4-4e13-bd3d-ffcd53d0a73c</tstamp>
+    </comp>
+    <comp ref="DU_3_6">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4461d8c3-1cc2-4124-a234-a078f22d3a47</tstamp>
+    </comp>
+    <comp ref="DU_3_7">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4b1f3d92-fbe4-4918-a919-1c4c6e002b89</tstamp>
+    </comp>
+    <comp ref="DU_3_8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8448a25f-e038-458f-ae11-2a6753696a4a</tstamp>
+    </comp>
+    <comp ref="DU_3_9">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b3490c7a-2f75-4e70-b6e8-27621fe2fce9</tstamp>
+    </comp>
+    <comp ref="DU_3_10">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7795d951-792a-4420-9f31-86336a2c30f5</tstamp>
+    </comp>
+    <comp ref="DU_3_11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67b61e26-b0b1-43ab-b1e6-e809d4e30d1a</tstamp>
+    </comp>
+    <comp ref="DU_3_12">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ea502a9c-bf32-4dae-b3e0-a18eef8ac4ac</tstamp>
+    </comp>
+    <comp ref="DU_3_13">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>c38cfde6-43ef-4b2c-afa0-aaf68a900994</tstamp>
+    </comp>
+    <comp ref="DU_3_14">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>873e75e5-6ea4-4d4b-b60b-79746769f2ab</tstamp>
+    </comp>
+    <comp ref="DU_4_1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ab27a0c8-b3af-4010-93b0-6bf0efead5e7</tstamp>
+    </comp>
+    <comp ref="DU_4_2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>c614f36e-52b9-4766-99b5-aafc02167b8a</tstamp>
+    </comp>
+    <comp ref="DU_4_3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>25fbafdb-4ce0-46f3-bbc7-b04705b41564</tstamp>
+    </comp>
+    <comp ref="DU_4_5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f7978adf-2468-4f0d-8db0-40b66e2c9c9e</tstamp>
+    </comp>
+    <comp ref="DU_4_8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53c4185b-b1ed-43ad-81e0-055f5ef47880</tstamp>
+    </comp>
+    <comp ref="DU_4_10">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>dd5fc43a-083f-4a09-9c27-f99b6106b9e9</tstamp>
+    </comp>
+    <comp ref="DU_4_11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6b9c9467-cc76-410b-b9ef-71a3548997df</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>TLC-PSMD050</value>
+      <footprint>BMEK:Fuse_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C261942</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005c2c8a40</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54e3fec7-a871-4c5f-826b-206458e4b7c9</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AVR-ISP-6</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1f88e7a5-14b3-4f10-88e9-03086eb3cd5a</tstamp>
+    </comp>
+    <comp ref="MX_0_0">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9147c1c8-3a5c-406e-b961-bc57fcfc3afa</tstamp>
+    </comp>
+    <comp ref="MX_0_1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>931bb7b4-dee7-4b3a-9f73-a61900234f92</tstamp>
+    </comp>
+    <comp ref="MX_0_2">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b7fedd0d-8c9d-400d-928a-cadacf3fb40e</tstamp>
+    </comp>
+    <comp ref="MX_0_3">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6d7b6428-272b-41ed-8e42-afc9b4d01cc9</tstamp>
+    </comp>
+    <comp ref="MX_0_4">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>aeda67d7-34cd-40b2-a45b-12910afa95ae</tstamp>
+    </comp>
+    <comp ref="MX_0_5">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d97ed82b-1834-40fd-aab8-c0480a666926</tstamp>
+    </comp>
+    <comp ref="MX_0_6">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>fcd73db6-1d23-4445-a301-e5c380eee971</tstamp>
+    </comp>
+    <comp ref="MX_0_7">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b7b08bcc-0d59-4576-8b70-5cc37914bb0a</tstamp>
+    </comp>
+    <comp ref="MX_0_8">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>cf2d11d9-4ac3-41d3-a7d6-dca99c2b004e</tstamp>
+    </comp>
+    <comp ref="MX_0_9">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>833dcf5b-ab67-4e39-bc36-0d9b0399731a</tstamp>
+    </comp>
+    <comp ref="MX_0_10">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>16aabfb5-b81f-4342-9110-189cad77fb50</tstamp>
+    </comp>
+    <comp ref="MX_0_11">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a3f9a169-693a-42c6-94fd-28d6cc3d4e0f</tstamp>
+    </comp>
+    <comp ref="MX_0_12">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ea152138-3c08-404e-a3f5-c7783a5f0e38</tstamp>
+    </comp>
+    <comp ref="MX_0_13">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>24f19ef3-c491-4987-a925-eaefcec1e72f</tstamp>
+    </comp>
+    <comp ref="MX_0_14">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6cc3fcbd-0137-464b-948e-29963b46d1f3</tstamp>
+    </comp>
+    <comp ref="MX_0_14b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d3a70be6-b3d8-49f9-ba5d-efd19177a817</tstamp>
+    </comp>
+    <comp ref="MX_1_0">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f41d1138-cf42-4827-a8d6-e5df854a807d</tstamp>
+    </comp>
+    <comp ref="MX_1_1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2a5c4134-4b5f-4236-96fd-f9d00b2b4bed</tstamp>
+    </comp>
+    <comp ref="MX_1_2">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>23c9db75-892e-4612-8052-2bb4a373c818</tstamp>
+    </comp>
+    <comp ref="MX_1_3">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a201616c-9b1a-45d2-ae19-5838e19a3842</tstamp>
+    </comp>
+    <comp ref="MX_1_4">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>23e74187-d7ed-49dd-b1e8-75cf2f5a6eeb</tstamp>
+    </comp>
+    <comp ref="MX_1_5">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>32904dd1-be8b-4e48-99fd-28c491265749</tstamp>
+    </comp>
+    <comp ref="MX_1_6">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>959027d2-63ab-4259-9e26-692890d35785</tstamp>
+    </comp>
+    <comp ref="MX_1_7">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>86a306e2-f478-44f7-b60e-ae85bbeb3bd8</tstamp>
+    </comp>
+    <comp ref="MX_1_8">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ad6bc76a-faf5-4ad5-8335-1fe239eaef0e</tstamp>
+    </comp>
+    <comp ref="MX_1_9">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>15355404-2a2d-4997-a43c-86515cb91adc</tstamp>
+    </comp>
+    <comp ref="MX_1_10">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3fe019c0-e9af-4432-86bc-da9dae603597</tstamp>
+    </comp>
+    <comp ref="MX_1_11">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8bb446ac-bf37-4386-a434-8ec430ef4a74</tstamp>
+    </comp>
+    <comp ref="MX_1_12">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>18dfc49a-bf85-47af-a643-99b5ead5e116</tstamp>
+    </comp>
+    <comp ref="MX_1_13">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>03ed1e60-e224-4d13-9147-4c96501aa3e4</tstamp>
+    </comp>
+    <comp ref="MX_1_14">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4af072cc-6b5d-4f1a-9966-f330bba9bf55</tstamp>
+    </comp>
+    <comp ref="MX_2_0">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0c6f6ed5-1ec7-444e-9838-165219b620da</tstamp>
+    </comp>
+    <comp ref="MX_2_1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a5a96723-89f3-4062-8167-233cee18eb15</tstamp>
+    </comp>
+    <comp ref="MX_2_2">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>21c7aeee-2e5d-4c0d-83f4-2c5a8fe664da</tstamp>
+    </comp>
+    <comp ref="MX_2_3">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>738fc43f-7c53-4d89-9b30-8ff3167f27b1</tstamp>
+    </comp>
+    <comp ref="MX_2_4">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>db20a9aa-74ef-4f86-8057-68cbd1d40274</tstamp>
+    </comp>
+    <comp ref="MX_2_5">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>39e0fdb5-9b07-4c2c-9e6b-aa8d1d93d9ba</tstamp>
+    </comp>
+    <comp ref="MX_2_6">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>db3f1667-bcb4-45f2-8e33-7a729207f08d</tstamp>
+    </comp>
+    <comp ref="MX_2_7">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ac377aa8-4956-4428-8c98-a8cc5f7d8575</tstamp>
+    </comp>
+    <comp ref="MX_2_8">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0d4d136d-3c6b-422e-8880-051eb84fe82a</tstamp>
+    </comp>
+    <comp ref="MX_2_9">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7f8813b2-e23f-4a5b-b1f6-a99dc5414e82</tstamp>
+    </comp>
+    <comp ref="MX_2_10">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0dae3e38-fdd3-4e5e-aaca-e487f89b86a4</tstamp>
+    </comp>
+    <comp ref="MX_2_11">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>eb1f4de2-36a9-4b8f-8a51-3e5776fd9299</tstamp>
+    </comp>
+    <comp ref="MX_2_12">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>faba2035-b45e-4bc9-9897-3bc0d3668a59</tstamp>
+    </comp>
+    <comp ref="MX_2_13">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ec142570-dd02-4dce-bff8-471178261dd2</tstamp>
+    </comp>
+    <comp ref="MX_2_14">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>37a71f58-8cf7-4d51-9a19-264a4adbe999</tstamp>
+    </comp>
+    <comp ref="MX_3_0">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9e79c3fd-7931-4235-a472-d1b746fc87d9</tstamp>
+    </comp>
+    <comp ref="MX_3_1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a8d1294d-43e7-42c0-bbf7-d4838bdae803</tstamp>
+    </comp>
+    <comp ref="MX_3_2">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>cf40daf5-99f3-4362-8c63-55da38d5dd22</tstamp>
+    </comp>
+    <comp ref="MX_3_3">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66d18614-2e34-453a-8f76-f74a0cff5de5</tstamp>
+    </comp>
+    <comp ref="MX_3_4">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7f110391-99c6-46c7-8501-c50cd4de45f4</tstamp>
+    </comp>
+    <comp ref="MX_3_5">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59672050-fdfe-4e0c-8ff3-854ce09c08ea</tstamp>
+    </comp>
+    <comp ref="MX_3_6">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>10d114ee-74aa-4859-a9fd-f3828f4a18a5</tstamp>
+    </comp>
+    <comp ref="MX_3_7">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a2917177-4c30-40ad-9293-e4d6b3368680</tstamp>
+    </comp>
+    <comp ref="MX_3_8">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3f33e6ec-c1c5-414a-b331-278a4310895f</tstamp>
+    </comp>
+    <comp ref="MX_3_9">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>07e407cc-a65a-4f10-ac48-e3e73777e148</tstamp>
+    </comp>
+    <comp ref="MX_3_10">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>667417f1-9057-4d34-b279-1bc5ee4544a1</tstamp>
+    </comp>
+    <comp ref="MX_3_11">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>07b8f418-b7ec-4595-8739-4f6ae5af803b</tstamp>
+    </comp>
+    <comp ref="MX_3_12">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>dee6df18-1d10-48a3-9e68-f596ec1a630d</tstamp>
+    </comp>
+    <comp ref="MX_3_13">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>df99d066-879e-4e66-a241-e6e145387c5a</tstamp>
+    </comp>
+    <comp ref="MX_3_14">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6c704c4d-4c64-491b-80b4-7bb566ac92b9</tstamp>
+    </comp>
+    <comp ref="MX_3_13b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>28132da9-1efd-41d7-b326-9459f304e7cf</tstamp>
+    </comp>
+    <comp ref="MX_3_1b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62a2d1b8-31ae-4076-84b7-1eb31089617b</tstamp>
+    </comp>
+    <comp ref="MX_4_1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1e5c47dc-0c93-40c4-8719-9619a4387ce1</tstamp>
+    </comp>
+    <comp ref="MX_4_2">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9bf2c74e-7969-4c19-bfbf-26a279fabaed</tstamp>
+    </comp>
+    <comp ref="MX_4_3">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0851c8ac-9a9b-46c4-91bb-175a9ace3b4e</tstamp>
+    </comp>
+    <comp ref="MX_4_5">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>95899a47-71d7-44f2-9a75-79709b8da047</tstamp>
+    </comp>
+    <comp ref="MX_4_8">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5731656b-fe83-4d51-880a-aed25ae894ea</tstamp>
+    </comp>
+    <comp ref="MX_4_10">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>c710f7b1-0c83-4754-91f0-65fa4d785032</tstamp>
+    </comp>
+    <comp ref="MX_4_11">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>19c9240d-ab88-4e51-86c8-9632c041817e</tstamp>
+    </comp>
+    <comp ref="MX_4_5b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>37954739-be91-47cc-9ed9-32f40c8cf0b3</tstamp>
+    </comp>
+    <comp ref="MX_4_8b1">
+      <value>MX-NoLED</value>
+      <footprint>BMEK:MX-1U</footprint>
+      <libsource lib="BMEK" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7153c2d6-f73c-456b-bd63-f283be2e6941</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8112e6dc-f032-411b-83cb-644c17c21b17</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616c564e-7de7-4dae-bc31-cd7ec31a74ee</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5k1Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>c4f24b0e-e2d0-4c5b-9ad5-9727e7f251fb</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>5k1Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0b6c23ad-903b-47ac-af2f-c658069d0a62</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1MΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FootprintLCSC">0603</field>
+        <field name="LCSC">C22935</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f7389e24-e468-4c62-89ab-b2058885c771</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ec87a0f9-719e-438a-8472-931c466be0b8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e3417fd4-8ddb-4935-93e7-143e172ab9aa</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>470Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23179</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d834c9d4-b3b2-43a1-8e10-f082ac11b8fd</tstamp>
+    </comp>
+    <comp ref="ST_0_14b1">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63bab202-affc-4606-8a1a-0ad65ac35f67</tstamp>
+    </comp>
+    <comp ref="ST_2_14">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7471fe8f-82ae-4bca-94aa-fe3a3998fc0b</tstamp>
+    </comp>
+    <comp ref="ST_3_1">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a64b3e50-6ecd-4e89-91d7-e9f1e91c200c</tstamp>
+    </comp>
+    <comp ref="ST_3_13">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>86d37061-887e-446d-adde-9ea070ae0491</tstamp>
+    </comp>
+    <comp ref="ST_4_5">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56fe02af-d970-41f3-9df4-765b63dde69c</tstamp>
+    </comp>
+    <comp ref="ST_4_5b1">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0bb1b05a-3e52-4400-a7f6-016836c84dbc</tstamp>
+    </comp>
+    <comp ref="ST_4_8b1">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5b9dd8e2-ad70-4079-a9d6-1d21fefb7b3c</tstamp>
+    </comp>
+    <comp ref="ST_8_5">
+      <value>MX-Stabiliser</value>
+      <footprint>BMEK:MX-Stabiliser-2.25U</footprint>
+      <libsource lib="BMEK" part="MX-Stabiliser" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>43ee2a0c-11b6-4671-8769-7b4f68dd1cde</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>BMEK:TS-1187A-B-A-B</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>823b5964-b23b-4567-bb80-426833f3f3fc</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32U4-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C44854</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3bd2bdf6-34f5-4f00-b8e4-7ad99ecac214</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>USBLC6-2SC6</value>
+      <footprint>BMEK:SOT95P280X145-6N</footprint>
+      <fields>
+        <field name="LCSC">C7519</field>
+      </fields>
+      <libsource lib="BMEK" part="USBLC6-2SC6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005c2db6c2</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <footprint>BMEK:HRO-TYPE-C-31-M-12-HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C165948</field>
+      </fields>
+      <libsource lib="BMEK" part="HRO-TYPE-C-31-M-12" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>042c360b-789c-4235-b348-fd9c26ef13ba</tstamp>
+    </comp>
+    <comp ref="V1">
+      <value>PCBProfile</value>
+      <footprint>BMEK:PCBProfile_NO_Switches_copy</footprint>
+      <libsource lib="BMEK" part="PCBProfile" description="PCB Profile that fits inside the BMEK Case"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>71d0731c-f7be-4bc5-bd38-870adf98f5b9</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_GND24_Small</value>
+      <footprint>BMEK:SMD3225</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13738</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9af2dd45-3592-47f3-a2c6-4e7fbd6229fa</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BMEK" part="D_TVS_UNIDIRECTIONAL">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS_UNIDIRECTIONAL</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMEK" part="HRO-TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMEK" part="MX-NoLED">
+      <fields>
+        <field name="Reference">MX</field>
+        <field name="Value">MX-NoLED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COL" type="passive"/>
+        <pin num="2" name="ROW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMEK" part="MX-Stabiliser">
+      <fields>
+        <field name="Reference">ST</field>
+        <field name="Value">MX-Stabiliser</field>
+      </fields>
+    </libpart>
+    <libpart lib="BMEK" part="PCBProfile">
+      <description>PCB Profile that fits inside the BMEK Case</description>
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">PCBProfile</field>
+        <field name="Footprint">BMEK:PCBProfile</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Shield" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMEK" part="USBLC6-2SC6">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">USBLC6-2SC6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="power_in"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148W">
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega32U4-AU">
+      <description>16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega32U4-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BMEK">
+      <uri>C:\Users\janko\Documents\GitHub\bmek\pcb\kicad\projects\BMEK_Solder/../../libraries/BMEK.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="COL0">
+      <node ref="MX_0_0" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_0" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_0" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_0" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="30" pinfunction="PB6"/>
+    </net>
+    <net code="2" name="COL1">
+      <node ref="MX_0_1" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_1" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_1" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_1" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_1b1" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_1" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="31" pinfunction="PC6"/>
+    </net>
+    <net code="3" name="COL10">
+      <node ref="MX_0_10" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_10" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_10" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_10" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_10" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="19" pinfunction="PD1"/>
+    </net>
+    <net code="4" name="COL11">
+      <node ref="MX_0_11" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_11" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_11" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_11" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_11" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="20" pinfunction="PD2"/>
+    </net>
+    <net code="5" name="COL12">
+      <node ref="MX_0_12" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_12" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_12" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_12" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="21" pinfunction="PD3"/>
+    </net>
+    <net code="6" name="COL13">
+      <node ref="MX_0_13" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_13" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_13" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_13" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_13b1" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="22" pinfunction="PD5"/>
+    </net>
+    <net code="7" name="COL14">
+      <node ref="MX_0_14" pin="1" pinfunction="COL"/>
+      <node ref="MX_0_14b1" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_14" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_14" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_14" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="25" pinfunction="PD4"/>
+    </net>
+    <net code="8" name="COL2">
+      <node ref="MX_0_2" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_2" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_2" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_2" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_2" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="32" pinfunction="PC7"/>
+    </net>
+    <net code="9" name="COL3">
+      <node ref="MX_0_3" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_3" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_3" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_3" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_3" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="36" pinfunction="PF7"/>
+    </net>
+    <net code="10" name="COL4">
+      <node ref="MX_0_4" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_4" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_4" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_4" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="37" pinfunction="PF6"/>
+    </net>
+    <net code="11" name="COL5">
+      <node ref="MX_0_5" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_5" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_5" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_5" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_5" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_5b1" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="38" pinfunction="PF5"/>
+    </net>
+    <net code="12" name="COL6">
+      <node ref="MX_0_6" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_6" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_6" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_6" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="39" pinfunction="PF4"/>
+    </net>
+    <net code="13" name="COL7">
+      <node ref="MX_0_7" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_7" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_7" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_7" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="41" pinfunction="PF0"/>
+    </net>
+    <net code="14" name="COL8">
+      <node ref="MX_0_8" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_8" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_8" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_8" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_8" pin="1" pinfunction="COL"/>
+      <node ref="MX_4_8b1" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="12" pinfunction="PB7"/>
+    </net>
+    <net code="15" name="COL9">
+      <node ref="MX_0_9" pin="1" pinfunction="COL"/>
+      <node ref="MX_1_9" pin="1" pinfunction="COL"/>
+      <node ref="MX_2_9" pin="1" pinfunction="COL"/>
+      <node ref="MX_3_9" pin="1" pinfunction="COL"/>
+      <node ref="U1" pin="18" pinfunction="PD0"/>
+    </net>
+    <net code="16" name="D+">
+      <node ref="J1" pin="2" pinfunction="Pin_2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="6" pinfunction="I/O1"/>
+      <node ref="USB1" pin="6" pinfunction="DP1"/>
+      <node ref="USB1" pin="8" pinfunction="DP2"/>
+    </net>
+    <net code="17" name="D-">
+      <node ref="J1" pin="3" pinfunction="Pin_3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="3" pinfunction="I/O2"/>
+      <node ref="USB1" pin="5" pinfunction="DN2"/>
+      <node ref="USB1" pin="7" pinfunction="DN1"/>
+    </net>
+    <net code="18" name="Earth">
+      <node ref="C11" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="USB1" pin="13" pinfunction="SHIELD"/>
+      <node ref="V1" pin="1" pinfunction="Shield"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C1" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D1" pin="2" pinfunction="A"/>
+      <node ref="D2" pin="3" pinfunction="VSS"/>
+      <node ref="D3" pin="3" pinfunction="VSS"/>
+      <node ref="D4" pin="3" pinfunction="VSS"/>
+      <node ref="D5" pin="3" pinfunction="VSS"/>
+      <node ref="D6" pin="3" pinfunction="VSS"/>
+      <node ref="D7" pin="3" pinfunction="VSS"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1"/>
+      <node ref="J2" pin="6" pinfunction="GND"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="SW1" pin="1" pinfunction="1"/>
+      <node ref="U1" pin="15" pinfunction="GND"/>
+      <node ref="U1" pin="23" pinfunction="GND"/>
+      <node ref="U1" pin="35" pinfunction="GND"/>
+      <node ref="U1" pin="43" pinfunction="GND"/>
+      <node ref="U1" pin="5" pinfunction="UGND"/>
+      <node ref="U2" pin="2" pinfunction="GND"/>
+      <node ref="USB1" pin="1" pinfunction="GND"/>
+      <node ref="USB1" pin="12" pinfunction="GND"/>
+      <node ref="Y1" pin="2" pinfunction="2"/>
+      <node ref="Y1" pin="4" pinfunction="4"/>
+    </net>
+    <net code="20" name="MISO">
+      <node ref="J2" pin="4" pinfunction="MOSI"/>
+      <node ref="U1" pin="11" pinfunction="PB3"/>
+    </net>
+    <net code="21" name="MOSI">
+      <node ref="J2" pin="1" pinfunction="MISO"/>
+      <node ref="U1" pin="10" pinfunction="PB2"/>
+    </net>
+    <net code="22" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="6" pinfunction="UCAP"/>
+    </net>
+    <net code="23" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="42" pinfunction="AREF"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="DOUT"/>
+      <node ref="D3" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="25" name="Net-(D2-Pad4)">
+      <node ref="D2" pin="4" pinfunction="DIN"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="DOUT"/>
+      <node ref="D4" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="27" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="DOUT"/>
+      <node ref="D5" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="28" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="DOUT"/>
+      <node ref="D6" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="29" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="DOUT"/>
+      <node ref="D7" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="30" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="DOUT"/>
+    </net>
+    <net code="31" name="Net-(DU_0_0-Pad2)">
+      <node ref="DU_0_0" pin="2" pinfunction="A"/>
+      <node ref="MX_0_0" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="32" name="Net-(DU_0_1-Pad2)">
+      <node ref="DU_0_1" pin="2" pinfunction="A"/>
+      <node ref="MX_0_1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="33" name="Net-(DU_0_10-Pad2)">
+      <node ref="DU_0_10" pin="2" pinfunction="A"/>
+      <node ref="MX_0_10" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="34" name="Net-(DU_0_11-Pad2)">
+      <node ref="DU_0_11" pin="2" pinfunction="A"/>
+      <node ref="MX_0_11" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="35" name="Net-(DU_0_12-Pad2)">
+      <node ref="DU_0_12" pin="2" pinfunction="A"/>
+      <node ref="MX_0_12" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="36" name="Net-(DU_0_13-Pad2)">
+      <node ref="DU_0_13" pin="2" pinfunction="A"/>
+      <node ref="MX_0_13" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="37" name="Net-(DU_0_14-Pad2)">
+      <node ref="DU_0_14" pin="2" pinfunction="A"/>
+      <node ref="MX_0_14" pin="2" pinfunction="ROW"/>
+      <node ref="MX_0_14b1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="38" name="Net-(DU_0_2-Pad2)">
+      <node ref="DU_0_2" pin="2" pinfunction="A"/>
+      <node ref="MX_0_2" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="39" name="Net-(DU_0_3-Pad2)">
+      <node ref="DU_0_3" pin="2" pinfunction="A"/>
+      <node ref="MX_0_3" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="40" name="Net-(DU_0_4-Pad2)">
+      <node ref="DU_0_4" pin="2" pinfunction="A"/>
+      <node ref="MX_0_4" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="41" name="Net-(DU_0_5-Pad2)">
+      <node ref="DU_0_5" pin="2" pinfunction="A"/>
+      <node ref="MX_0_5" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="42" name="Net-(DU_0_6-Pad2)">
+      <node ref="DU_0_6" pin="2" pinfunction="A"/>
+      <node ref="MX_0_6" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="43" name="Net-(DU_0_7-Pad2)">
+      <node ref="DU_0_7" pin="2" pinfunction="A"/>
+      <node ref="MX_0_7" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="44" name="Net-(DU_0_8-Pad2)">
+      <node ref="DU_0_8" pin="2" pinfunction="A"/>
+      <node ref="MX_0_8" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="45" name="Net-(DU_0_9-Pad2)">
+      <node ref="DU_0_9" pin="2" pinfunction="A"/>
+      <node ref="MX_0_9" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="46" name="Net-(DU_1_0-Pad2)">
+      <node ref="DU_1_0" pin="2" pinfunction="A"/>
+      <node ref="MX_1_0" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="47" name="Net-(DU_1_1-Pad2)">
+      <node ref="DU_1_1" pin="2" pinfunction="A"/>
+      <node ref="MX_1_1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="48" name="Net-(DU_1_10-Pad2)">
+      <node ref="DU_1_10" pin="2" pinfunction="A"/>
+      <node ref="MX_1_10" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="49" name="Net-(DU_1_11-Pad2)">
+      <node ref="DU_1_11" pin="2" pinfunction="A"/>
+      <node ref="MX_1_11" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="50" name="Net-(DU_1_12-Pad2)">
+      <node ref="DU_1_12" pin="2" pinfunction="A"/>
+      <node ref="MX_1_12" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="51" name="Net-(DU_1_13-Pad2)">
+      <node ref="DU_1_13" pin="2" pinfunction="A"/>
+      <node ref="MX_1_13" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="52" name="Net-(DU_1_14-Pad2)">
+      <node ref="DU_1_14" pin="2" pinfunction="A"/>
+      <node ref="MX_1_14" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="53" name="Net-(DU_1_2-Pad2)">
+      <node ref="DU_1_2" pin="2" pinfunction="A"/>
+      <node ref="MX_1_2" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="54" name="Net-(DU_1_3-Pad2)">
+      <node ref="DU_1_3" pin="2" pinfunction="A"/>
+      <node ref="MX_1_3" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="55" name="Net-(DU_1_4-Pad2)">
+      <node ref="DU_1_4" pin="2" pinfunction="A"/>
+      <node ref="MX_1_4" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="56" name="Net-(DU_1_5-Pad2)">
+      <node ref="DU_1_5" pin="2" pinfunction="A"/>
+      <node ref="MX_1_5" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="57" name="Net-(DU_1_6-Pad2)">
+      <node ref="DU_1_6" pin="2" pinfunction="A"/>
+      <node ref="MX_1_6" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="58" name="Net-(DU_1_7-Pad2)">
+      <node ref="DU_1_7" pin="2" pinfunction="A"/>
+      <node ref="MX_1_7" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="59" name="Net-(DU_1_8-Pad2)">
+      <node ref="DU_1_8" pin="2" pinfunction="A"/>
+      <node ref="MX_1_8" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="60" name="Net-(DU_1_9-Pad2)">
+      <node ref="DU_1_9" pin="2" pinfunction="A"/>
+      <node ref="MX_1_9" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="61" name="Net-(DU_2_0-Pad2)">
+      <node ref="DU_2_0" pin="2" pinfunction="A"/>
+      <node ref="MX_2_0" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="62" name="Net-(DU_2_1-Pad2)">
+      <node ref="DU_2_1" pin="2" pinfunction="A"/>
+      <node ref="MX_2_1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="63" name="Net-(DU_2_10-Pad2)">
+      <node ref="DU_2_10" pin="2" pinfunction="A"/>
+      <node ref="MX_2_10" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="64" name="Net-(DU_2_11-Pad2)">
+      <node ref="DU_2_11" pin="2" pinfunction="A"/>
+      <node ref="MX_2_11" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="65" name="Net-(DU_2_12-Pad2)">
+      <node ref="DU_2_12" pin="2" pinfunction="A"/>
+      <node ref="MX_2_12" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="66" name="Net-(DU_2_13-Pad2)">
+      <node ref="DU_2_13" pin="2" pinfunction="A"/>
+      <node ref="MX_2_13" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="67" name="Net-(DU_2_14-Pad2)">
+      <node ref="DU_2_14" pin="2" pinfunction="A"/>
+      <node ref="MX_2_14" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="68" name="Net-(DU_2_2-Pad2)">
+      <node ref="DU_2_2" pin="2" pinfunction="A"/>
+      <node ref="MX_2_2" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="69" name="Net-(DU_2_3-Pad2)">
+      <node ref="DU_2_3" pin="2" pinfunction="A"/>
+      <node ref="MX_2_3" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="70" name="Net-(DU_2_4-Pad2)">
+      <node ref="DU_2_4" pin="2" pinfunction="A"/>
+      <node ref="MX_2_4" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="71" name="Net-(DU_2_5-Pad2)">
+      <node ref="DU_2_5" pin="2" pinfunction="A"/>
+      <node ref="MX_2_5" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="72" name="Net-(DU_2_6-Pad2)">
+      <node ref="DU_2_6" pin="2" pinfunction="A"/>
+      <node ref="MX_2_6" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="73" name="Net-(DU_2_7-Pad2)">
+      <node ref="DU_2_7" pin="2" pinfunction="A"/>
+      <node ref="MX_2_7" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="74" name="Net-(DU_2_8-Pad2)">
+      <node ref="DU_2_8" pin="2" pinfunction="A"/>
+      <node ref="MX_2_8" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="75" name="Net-(DU_2_9-Pad2)">
+      <node ref="DU_2_9" pin="2" pinfunction="A"/>
+      <node ref="MX_2_9" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="76" name="Net-(DU_3_0-Pad2)">
+      <node ref="DU_3_0" pin="2" pinfunction="A"/>
+      <node ref="MX_3_0" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="77" name="Net-(DU_3_1-Pad2)">
+      <node ref="DU_3_1" pin="2" pinfunction="A"/>
+      <node ref="MX_3_1" pin="2" pinfunction="ROW"/>
+      <node ref="MX_3_1b1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="78" name="Net-(DU_3_10-Pad2)">
+      <node ref="DU_3_10" pin="2" pinfunction="A"/>
+      <node ref="MX_3_10" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="79" name="Net-(DU_3_11-Pad2)">
+      <node ref="DU_3_11" pin="2" pinfunction="A"/>
+      <node ref="MX_3_11" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="80" name="Net-(DU_3_12-Pad2)">
+      <node ref="DU_3_12" pin="2" pinfunction="A"/>
+      <node ref="MX_3_12" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="81" name="Net-(DU_3_13-Pad2)">
+      <node ref="DU_3_13" pin="2" pinfunction="A"/>
+      <node ref="MX_3_13" pin="2" pinfunction="ROW"/>
+      <node ref="MX_3_13b1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="82" name="Net-(DU_3_14-Pad2)">
+      <node ref="DU_3_14" pin="2" pinfunction="A"/>
+      <node ref="MX_3_14" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="83" name="Net-(DU_3_2-Pad2)">
+      <node ref="DU_3_2" pin="2" pinfunction="A"/>
+      <node ref="MX_3_2" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="84" name="Net-(DU_3_3-Pad2)">
+      <node ref="DU_3_3" pin="2" pinfunction="A"/>
+      <node ref="MX_3_3" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="85" name="Net-(DU_3_4-Pad2)">
+      <node ref="DU_3_4" pin="2" pinfunction="A"/>
+      <node ref="MX_3_4" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="86" name="Net-(DU_3_5-Pad2)">
+      <node ref="DU_3_5" pin="2" pinfunction="A"/>
+      <node ref="MX_3_5" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="87" name="Net-(DU_3_6-Pad2)">
+      <node ref="DU_3_6" pin="2" pinfunction="A"/>
+      <node ref="MX_3_6" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="88" name="Net-(DU_3_7-Pad2)">
+      <node ref="DU_3_7" pin="2" pinfunction="A"/>
+      <node ref="MX_3_7" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="89" name="Net-(DU_3_8-Pad2)">
+      <node ref="DU_3_8" pin="2" pinfunction="A"/>
+      <node ref="MX_3_8" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="90" name="Net-(DU_3_9-Pad2)">
+      <node ref="DU_3_9" pin="2" pinfunction="A"/>
+      <node ref="MX_3_9" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="91" name="Net-(DU_4_1-Pad2)">
+      <node ref="DU_4_1" pin="2" pinfunction="A"/>
+      <node ref="MX_4_1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="92" name="Net-(DU_4_10-Pad2)">
+      <node ref="DU_4_10" pin="2" pinfunction="A"/>
+      <node ref="MX_4_10" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="93" name="Net-(DU_4_11-Pad2)">
+      <node ref="DU_4_11" pin="2" pinfunction="A"/>
+      <node ref="MX_4_11" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="94" name="Net-(DU_4_2-Pad2)">
+      <node ref="DU_4_2" pin="2" pinfunction="A"/>
+      <node ref="MX_4_2" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="95" name="Net-(DU_4_3-Pad2)">
+      <node ref="DU_4_3" pin="2" pinfunction="A"/>
+      <node ref="MX_4_3" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="96" name="Net-(DU_4_5-Pad2)">
+      <node ref="DU_4_5" pin="2" pinfunction="A"/>
+      <node ref="MX_4_5" pin="2" pinfunction="ROW"/>
+      <node ref="MX_4_5b1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="97" name="Net-(DU_4_8-Pad2)">
+      <node ref="DU_4_8" pin="2" pinfunction="A"/>
+      <node ref="MX_4_8" pin="2" pinfunction="ROW"/>
+      <node ref="MX_4_8b1" pin="2" pinfunction="ROW"/>
+    </net>
+    <net code="98" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="4" pinfunction="D+"/>
+    </net>
+    <net code="99" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="3" pinfunction="D-"/>
+    </net>
+    <net code="100" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="USB1" pin="4" pinfunction="CC1"/>
+    </net>
+    <net code="101" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="USB1" pin="10" pinfunction="CC2"/>
+    </net>
+    <net code="102" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="33" pinfunction="~HWB~/PE2"/>
+    </net>
+    <net code="103" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PB0"/>
+    </net>
+    <net code="104" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="I/O1"/>
+    </net>
+    <net code="105" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="I/O2"/>
+    </net>
+    <net code="106" name="Net-(USB1-Pad3)">
+      <node ref="USB1" pin="3" pinfunction="SBU2"/>
+    </net>
+    <net code="107" name="Net-(USB1-Pad9)">
+      <node ref="USB1" pin="9" pinfunction="SBU1"/>
+    </net>
+    <net code="108" name="RESET">
+      <node ref="J2" pin="5" pinfunction="~RST"/>
+      <node ref="R6" pin="2"/>
+      <node ref="SW1" pin="2" pinfunction="2"/>
+      <node ref="U1" pin="13" pinfunction="~RESET"/>
+    </net>
+    <net code="109" name="ROW0">
+      <node ref="DU_0_0" pin="1" pinfunction="K"/>
+      <node ref="DU_0_1" pin="1" pinfunction="K"/>
+      <node ref="DU_0_10" pin="1" pinfunction="K"/>
+      <node ref="DU_0_11" pin="1" pinfunction="K"/>
+      <node ref="DU_0_12" pin="1" pinfunction="K"/>
+      <node ref="DU_0_13" pin="1" pinfunction="K"/>
+      <node ref="DU_0_14" pin="1" pinfunction="K"/>
+      <node ref="DU_0_2" pin="1" pinfunction="K"/>
+      <node ref="DU_0_3" pin="1" pinfunction="K"/>
+      <node ref="DU_0_4" pin="1" pinfunction="K"/>
+      <node ref="DU_0_5" pin="1" pinfunction="K"/>
+      <node ref="DU_0_6" pin="1" pinfunction="K"/>
+      <node ref="DU_0_7" pin="1" pinfunction="K"/>
+      <node ref="DU_0_8" pin="1" pinfunction="K"/>
+      <node ref="DU_0_9" pin="1" pinfunction="K"/>
+      <node ref="U1" pin="40" pinfunction="PF1"/>
+    </net>
+    <net code="110" name="ROW1">
+      <node ref="DU_1_0" pin="1" pinfunction="K"/>
+      <node ref="DU_1_1" pin="1" pinfunction="K"/>
+      <node ref="DU_1_10" pin="1" pinfunction="K"/>
+      <node ref="DU_1_11" pin="1" pinfunction="K"/>
+      <node ref="DU_1_12" pin="1" pinfunction="K"/>
+      <node ref="DU_1_13" pin="1" pinfunction="K"/>
+      <node ref="DU_1_14" pin="1" pinfunction="K"/>
+      <node ref="DU_1_2" pin="1" pinfunction="K"/>
+      <node ref="DU_1_3" pin="1" pinfunction="K"/>
+      <node ref="DU_1_4" pin="1" pinfunction="K"/>
+      <node ref="DU_1_5" pin="1" pinfunction="K"/>
+      <node ref="DU_1_6" pin="1" pinfunction="K"/>
+      <node ref="DU_1_7" pin="1" pinfunction="K"/>
+      <node ref="DU_1_8" pin="1" pinfunction="K"/>
+      <node ref="DU_1_9" pin="1" pinfunction="K"/>
+      <node ref="U1" pin="28" pinfunction="PB4"/>
+    </net>
+    <net code="111" name="ROW2">
+      <node ref="DU_2_0" pin="1" pinfunction="K"/>
+      <node ref="DU_2_1" pin="1" pinfunction="K"/>
+      <node ref="DU_2_10" pin="1" pinfunction="K"/>
+      <node ref="DU_2_11" pin="1" pinfunction="K"/>
+      <node ref="DU_2_12" pin="1" pinfunction="K"/>
+      <node ref="DU_2_13" pin="1" pinfunction="K"/>
+      <node ref="DU_2_14" pin="1" pinfunction="K"/>
+      <node ref="DU_2_2" pin="1" pinfunction="K"/>
+      <node ref="DU_2_3" pin="1" pinfunction="K"/>
+      <node ref="DU_2_4" pin="1" pinfunction="K"/>
+      <node ref="DU_2_5" pin="1" pinfunction="K"/>
+      <node ref="DU_2_6" pin="1" pinfunction="K"/>
+      <node ref="DU_2_7" pin="1" pinfunction="K"/>
+      <node ref="DU_2_8" pin="1" pinfunction="K"/>
+      <node ref="DU_2_9" pin="1" pinfunction="K"/>
+      <node ref="U1" pin="29" pinfunction="PB5"/>
+    </net>
+    <net code="112" name="ROW3">
+      <node ref="DU_3_0" pin="1" pinfunction="K"/>
+      <node ref="DU_3_1" pin="1" pinfunction="K"/>
+      <node ref="DU_3_10" pin="1" pinfunction="K"/>
+      <node ref="DU_3_11" pin="1" pinfunction="K"/>
+      <node ref="DU_3_12" pin="1" pinfunction="K"/>
+      <node ref="DU_3_13" pin="1" pinfunction="K"/>
+      <node ref="DU_3_14" pin="1" pinfunction="K"/>
+      <node ref="DU_3_2" pin="1" pinfunction="K"/>
+      <node ref="DU_3_3" pin="1" pinfunction="K"/>
+      <node ref="DU_3_4" pin="1" pinfunction="K"/>
+      <node ref="DU_3_5" pin="1" pinfunction="K"/>
+      <node ref="DU_3_6" pin="1" pinfunction="K"/>
+      <node ref="DU_3_7" pin="1" pinfunction="K"/>
+      <node ref="DU_3_8" pin="1" pinfunction="K"/>
+      <node ref="DU_3_9" pin="1" pinfunction="K"/>
+      <node ref="U1" pin="26" pinfunction="PD6"/>
+    </net>
+    <net code="113" name="ROW4">
+      <node ref="DU_4_1" pin="1" pinfunction="K"/>
+      <node ref="DU_4_10" pin="1" pinfunction="K"/>
+      <node ref="DU_4_11" pin="1" pinfunction="K"/>
+      <node ref="DU_4_2" pin="1" pinfunction="K"/>
+      <node ref="DU_4_3" pin="1" pinfunction="K"/>
+      <node ref="DU_4_5" pin="1" pinfunction="K"/>
+      <node ref="DU_4_8" pin="1" pinfunction="K"/>
+      <node ref="U1" pin="27" pinfunction="PD7"/>
+    </net>
+    <net code="114" name="SCK">
+      <node ref="J2" pin="3" pinfunction="SCK"/>
+      <node ref="U1" pin="9" pinfunction="PB1"/>
+    </net>
+    <net code="115" name="VBUS">
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4"/>
+      <node ref="USB1" pin="11" pinfunction="VBUS"/>
+      <node ref="USB1" pin="2" pinfunction="VBUS"/>
+    </net>
+    <net code="116" name="VCC">
+      <node ref="C10" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D1" pin="1" pinfunction="K"/>
+      <node ref="D2" pin="1" pinfunction="VDD"/>
+      <node ref="D3" pin="1" pinfunction="VDD"/>
+      <node ref="D4" pin="1" pinfunction="VDD"/>
+      <node ref="D5" pin="1" pinfunction="VDD"/>
+      <node ref="D6" pin="1" pinfunction="VDD"/>
+      <node ref="D7" pin="1" pinfunction="VDD"/>
+      <node ref="F1" pin="1"/>
+      <node ref="J2" pin="2" pinfunction="VCC"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="14" pinfunction="VCC"/>
+      <node ref="U1" pin="2" pinfunction="UVCC"/>
+      <node ref="U1" pin="24" pinfunction="AVCC"/>
+      <node ref="U1" pin="34" pinfunction="VCC"/>
+      <node ref="U1" pin="44" pinfunction="AVCC"/>
+      <node ref="U1" pin="7" pinfunction="VBUS"/>
+      <node ref="U2" pin="5" pinfunction="VBUS"/>
+    </net>
+    <net code="117" name="WSDATA">
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="1" pinfunction="PE6"/>
+    </net>
+    <net code="118" name="XTAL1">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="17" pinfunction="XTAL1"/>
+      <node ref="Y1" pin="1" pinfunction="1"/>
+    </net>
+    <net code="119" name="XTAL2">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="16" pinfunction="XTAL2"/>
+      <node ref="Y1" pin="3" pinfunction="3"/>
+    </net>
+  </nets>
+</export>
