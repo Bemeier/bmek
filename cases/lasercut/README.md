@@ -3,9 +3,9 @@
 The Final result after all assemble
 
 ![Top Case](https://github.com/TahuTech/bmek/blob/master/cases/Lasercut/Photo/top.jpg?raw=true)
-![Bottom Case](https://imgbox.com/YiGjeAj0.jpg)
-![Side Case](https://imgbox.com/D9PHdreW)D:\Keyboard\Bmek\upload case\bmek\cases\Lasercut\Photo\bottom.jpg
-![Front Case](https://imgbox.com/qmIyr6hM)
+![Bottom Case](https://github.com/TahuTech/bmek/blob/master/cases/Lasercut/Photo/bottom.jpg)
+![Side Case](https://github.com/TahuTech/bmek/blob/master/cases/Lasercut/Photo/side.jpg)
+![Front Case](https://github.com/TahuTech/bmek/blob/master/cases/Lasercut/Photo/front.jpg)
 
 [Lasercut Album](https://imgbox.com/g/qNx6dZnEyE)
 
