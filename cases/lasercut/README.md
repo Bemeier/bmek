@@ -2,9 +2,9 @@
 
 The Final result after all assemble
 
-![Top Case](https://imgbox.com/hdhQGvu4/hdhQGvu4_o.jpg)
+![Top Case](https://github.com/Bemeier/bmek/tree/master/case/Lasercut/Photo/top.jpg?raw=true)
 ![Bottom Case](https://imgbox.com/YiGjeAj0.jpg)
-![Side Case](https://imgbox.com/D9PHdreW)
+![Side Case](https://imgbox.com/D9PHdreW)D:\Keyboard\Bmek\upload case\bmek\cases\Lasercut\Photo\bottom.jpg
 ![Front Case](https://imgbox.com/qmIyr6hM)
 
 [Lasercut Album](https://imgbox.com/g/qNx6dZnEyE)
