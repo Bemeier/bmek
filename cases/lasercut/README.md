@@ -2,12 +2,12 @@
 
 The Final result after all assemble
 
-![Top Case](https://imgbox.com/hdhQGvu4)
-![Bottom Case](https://imgbox.com/YiGjeAj0)
+![Top Case](https://github.com/Bemeier/bmek/tree/master/case/Lasercut/Photo/top.jpg)
+![Bottom Case](https://imgbox.com/YiGjeAj0.jpg)
 ![Side Case](https://imgbox.com/D9PHdreW)
 ![Front Case](https://imgbox.com/qmIyr6hM)
 
-![Lasercut Album](https://imgbox.com/g/qNx6dZnEyE)
+[Lasercut Album](https://imgbox.com/g/qNx6dZnEyE)
 
 # Spacer And Screws Required:
 
